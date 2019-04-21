@@ -1,0 +1,736 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css">
+
+
+  <meta name="keywords" content="蓝色技术工作室,竞赛,智能车,">
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1">
+
+
+
+
+
+
+<meta name="description" content="赛事简介 由教育部高等教育自动化类专业教学指导委员会主办，恩智浦公司协办，南京信息工程大学承办的全国大学生智能车大赛华东赛区在2016年7月25日于南京信息工程大学圆满结束。本次参加比赛的是来自江苏、江西、上海两省一市71所高校的337支队伍。其中摄像头组100支队伍、信标越野组20支队伍、光电组92支队伍、电磁直立组70支队伍、摄像头双车追逐组30支队伍、电轨组36支队伍。">
+<meta name="keywords" content="蓝色技术工作室,竞赛,智能车">
+<meta property="og:type" content="article">
+<meta property="og:title" content="蓝色技术创造历史">
+<meta property="og:url" content="https://JXUT-BST.github.io/2016/07/26/蓝色技术创造历史/index.html">
+<meta property="og:site_name" content="BST 蓝色技术工作室">
+<meta property="og:description" content="赛事简介 由教育部高等教育自动化类专业教学指导委员会主办，恩智浦公司协办，南京信息工程大学承办的全国大学生智能车大赛华东赛区在2016年7月25日于南京信息工程大学圆满结束。本次参加比赛的是来自江苏、江西、上海两省一市71所高校的337支队伍。其中摄像头组100支队伍、信标越野组20支队伍、光电组92支队伍、电磁直立组70支队伍、摄像头双车追逐组30支队伍、电轨组36支队伍。">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B21.jpeg">
+<meta property="og:image" content="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B22.jpg">
+<meta property="og:image" content="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B23.jpg">
+<meta property="og:image" content="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B24.jpeg">
+<meta property="og:image" content="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B25.jpg">
+<meta property="og:image" content="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B26.jpeg">
+<meta property="og:image" content="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B27.jpg">
+<meta property="og:image" content="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B28.jpg">
+<meta property="og:image" content="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B29.jpg">
+<meta property="og:image" content="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B210.jpg">
+<meta property="og:image" content="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B211.jpg">
+<meta property="og:image" content="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B212.jpg">
+<meta property="og:image" content="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B213.jpg">
+<meta property="og:image" content="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B214.png">
+<meta property="og:image" content="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B215.jpg">
+<meta property="og:image" content="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B216.jpg">
+<meta property="og:image" content="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B217.jpg">
+<meta property="og:image" content="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B218.png">
+<meta property="og:image" content="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B219.jpg">
+<meta property="og:image" content="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B220.jpg">
+<meta property="og:image" content="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B223.png">
+<meta property="og:image" content="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B224.png">
+<meta property="og:image" content="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B225.jpg">
+<meta property="og:image" content="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B226.jpg">
+<meta property="og:image" content="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B227.png">
+<meta property="og:updated_time" content="2019-04-15T13:34:57.766Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="蓝色技术创造历史">
+<meta name="twitter:description" content="赛事简介 由教育部高等教育自动化类专业教学指导委员会主办，恩智浦公司协办，南京信息工程大学承办的全国大学生智能车大赛华东赛区在2016年7月25日于南京信息工程大学圆满结束。本次参加比赛的是来自江苏、江西、上海两省一市71所高校的337支队伍。其中摄像头组100支队伍、信标越野组20支队伍、光电组92支队伍、电磁直立组70支队伍、摄像头双车追逐组30支队伍、电轨组36支队伍。">
+<meta name="twitter:image" content="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B21.jpeg">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: '博主'
+    }
+  };
+</script>
+
+  <title> 蓝色技术创造历史 | BST 蓝色技术工作室 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">BST 蓝色技术工作室</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">学习 · 实践 · 创新 · 创业</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-bst">
+          <a href="/bst" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-child"></i> <br>
+            
+            BST
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-timeline">
+          <a href="/timeline" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br>
+            
+            时间轴
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-finance">
+          <a href="/finance" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-yen"></i> <br>
+            
+            财务
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-bster">
+          <a href="/bster" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            BSTER
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-users"></i> <br>
+            
+            关于BST
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                蓝色技术创造历史
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-07-26T00:00:00+08:00" content="2016-07-26">
+              2016-07-26
+            </time>
+          </span>
+
+          
+            <span class="post-category">
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/新闻/" itemprop="url" rel="index">
+                    <span itemprop="name">新闻</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+              &nbsp; | &nbsp;
+              <span class="page-pv">本文总阅读量
+              <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>次
+              </span>
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="赛事简介"><a href="#赛事简介" class="headerlink" title="赛事简介"></a>赛事简介</h1><p><img src="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B21.jpeg" alt></p>
+<p>由教育部高等教育自动化类专业教学指导委员会主办，恩智浦公司协办，南京信息工程大学承办的全国大学生智能车大赛华东赛区在2016年7月25日于南京信息工程大学圆满结束。本次参加比赛的是来自江苏、江西、上海两省一市71所高校的337支队伍。其中摄像头组100支队伍、信标越野组20支队伍、光电组92支队伍、电磁直立组70支队伍、摄像头双车追逐组30支队伍、电轨组36支队伍。</p>
+<a id="more"></a>
+<h1 id="成果简介"><a href="#成果简介" class="headerlink" title="成果简介"></a>成果简介</h1><p><img src="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B22.jpg" alt></p>
+<p>经过两天紧张激烈的角逐，第十一届“恩智浦”杯全国大学生智能汽车竞赛华东赛区比赛终于圆满落下帷幕。本次比赛江西科技学院的参赛队伍有风月江南队、中国移动我不动队、K60与KL26的爱情故事队、海航553队、TitanicPanda队、狂飙的擎天柱队。其中信标组K60与KL26的爱情故事队、电磁组风月江南队、中国移动我不动队分别荣获各自组别的一等奖，风月江南队、中国移动我不动队更是在决赛中分别取得了第五名和第六名，信标组K60与KL26的爱情故事也取得了决赛第5名的好成绩。</p>
+<h2 id="出发"><a href="#出发" class="headerlink" title="出发"></a>出发</h2><p><img src="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B23.jpg" alt></p>
+<p>由汽车工程学院吴刚老师和信息工程学院杨小洪老师带领，蓝色技术工作室派出的六支队伍代表江西科技学院参加比赛。</p>
+<h2 id="校内准备"><a href="#校内准备" class="headerlink" title="校内准备"></a>校内准备</h2><p><img src="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B24.jpeg" alt></p>
+<p>单片机、杜邦线、传感器、转向舵机，这些看起来让我们云里雾里的名词，却是他们日常生活的一部分。</p>
+<p><img src="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B25.jpg" alt></p>
+<p>查资料、编代码、组装、调试，他们就这样在实验室里度过了一天又一天的时光。</p>
+<p><img src="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B26.jpeg" alt></p>
+<p>在我们眼中，工科生们都是技术宅，沉闷、不善言表是他们的代名词，但就是这样的他们，制作出了精巧无比的智能车。</p>
+<p><img src="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B27.jpg" alt><br>光电组车模</p>
+<p><img src="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B28.jpg" alt><br>双车组车模 — 1</p>
+<p><img src="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B29.jpg" alt><br>双车组车模 — 2</p>
+<p><img src="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B210.jpg" alt><br>队员和他的小车</p>
+<p><img src="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B211.jpg" alt><br>队员和他的小车</p>
+<p><img src="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B212.jpg" alt><br>队员和他的小车</p>
+<p>每一辆车都见证了参赛选手们的喜怒哀乐，每一辆车的背后都有一个只属于自己的故事。</p>
+<h2 id="比赛开始"><a href="#比赛开始" class="headerlink" title="比赛开始"></a>比赛开始</h2><p><img src="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B213.jpg" alt><br>江西科技学院 蓝色技术工作室 冲进国赛 加油！<br><img src="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B214.png" alt><br>参赛队员们<br><img src="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B215.jpg" alt><br>比赛场地<br><img src="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B216.jpg" alt><br><img src="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B217.jpg" alt><br>队员在赛场<br><img src="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B218.png" alt><br>整齐的智能车<br><img src="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B219.jpg" alt><br>选手们与评委交谈<br><img src="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B220.jpg" alt><br>荣获一等奖的队员们</p>
+<h2 id="出成果"><a href="#出成果" class="headerlink" title="出成果"></a>出成果</h2><p><img src="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B223.png" alt><br>电磁组获奖名单</p>
+<p><img src="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B224.png" alt><br>信标组获奖名单</p>
+<h2 id="喜悦"><a href="#喜悦" class="headerlink" title="喜悦"></a>喜悦</h2><p><img src="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B225.jpg" alt><br>指导老师吴刚和队员们合影</p>
+<p><img src="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B226.jpg" alt><br>欢乐的小伙伴们</p>
+<p><img src="http://bst.cooler-tec.com/%E8%93%9D%E8%89%B2%E6%8A%80%E6%9C%AF%E5%88%9B%E9%80%A0%E5%8E%86%E5%8F%B227.png" alt><br>我们的目标是：拼搏985，超越211！</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>有人得胜而归，有人遗憾离场。比赛就像人生，我们无法猜出赛场上下一秒会发生什么，唯有竭尽全力，方能做到</p>
+<p>“我来过，我无悔”</p>
+<h1 id="蓝色技术工作室简介"><a href="#蓝色技术工作室简介" class="headerlink" title="蓝色技术工作室简介"></a>蓝色技术工作室简介</h1><p>蓝色技术工作室成立于2011年10月，旨在提高学生对科学技术的兴趣和认知能力，使同学们积极地对科学技术进行不断的研究和探索，让同学们有一个相互交流的平台，实现学习和实践相结合，从而使同学们的知识水平达到一个更高的层次。我们着重培养电子、汽车、机械、软件方面的专业人才，培养其动手能力和创新思维。自团队成立来，它培养了一批又一批专业基础扎实的学生。经过五年的努力，我们参与了江西省及全国举办的各类比赛,涵盖汽车，机械，电子，计算机等各个学科。荣获全国大学生智能汽车大赛一等奖三个，全国大学生电子设计大赛一等奖一个，中国教育机器人大赛一等奖一个。</p>
+<p>蓝色技术工作室的存在不单单只是一个学生社团，更是一个能体现江科学生知识技能和专业素养，展现我校雄厚教师资力量、优秀教育成果的一个开放式的平台。对内，它代表最高技术组织，是我校最高等级的专业人才汇聚的优秀学生团体。对外，它代表着江科荣誉，它是江科旗下的优秀教育成果，是我校唯一支有实力的能与全国各985、211院校同台竞技，在国赛和省赛中获奖的大学生科技型组织。</p>
+<h2 id="我们的创业案例"><a href="#我们的创业案例" class="headerlink" title="我们的创业案例"></a>我们的创业案例</h2><h3 id="酷尔科技有限公司"><a href="#酷尔科技有限公司" class="headerlink" title="酷尔科技有限公司"></a>酷尔科技有限公司</h3><p><a href="http://v.qq.com/x/page/r0164ecm9lk.html" target="_blank" rel="noopener">视频链接</a></p>
+<h2 id="我们的新媒体平台"><a href="#我们的新媒体平台" class="headerlink" title="我们的新媒体平台"></a>我们的新媒体平台</h2><p><strong>微信公众号：蓝色技术工作室</strong><br><strong>微博：蓝色技术工作室</strong><br><strong>官网：<a href="http://lsjse.com" target="_blank" rel="noopener">lsjse.com</a></strong></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+<div id="wechat_subscriber" style="display: block； padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="http://bst.cooler-tec.com/wechat-qcode.jpg" alt="蓝色技术工作室 wechat" style="width: 200px; max-width: 100%;">
+    <div>扫描二维码 关注 → 蓝色技术工作室</div>
+</div>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/蓝色技术工作室/" rel="tag">#蓝色技术工作室</a>
+          
+            <a href="/tags/竞赛/" rel="tag">#竞赛</a>
+          
+            <a href="/tags/智能车/" rel="tag">#智能车</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/07/20/2016恩智浦杯全国大学生智能车大赛/" rel="next" title="2016恩智浦杯全国大学生智能车大赛">
+                <i class="fa fa-chevron-left"></i> 2016恩智浦杯全国大学生智能车大赛
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/07/09/我的大一生活总结（程序员自学之路)/" rel="prev" title="我的大一生活总结（程序员自学之路)">
+                我的大一生活总结（程序员自学之路) <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image" src="/uploads/avatar.png" alt="蓝色技术工作室">
+          <p class="site-author-name" itemprop="name">蓝色技术工作室</p>
+          <p class="site-description motion-element" itemprop="description">创新是我们唯一的出路</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/">
+              <span class="site-state-item-count">16</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">分类</span>
+              
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              
+                <span class="site-state-item-count">10</span>
+                <span class="site-state-item-name">标签</span>
+              
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://www.github.com/JXUT-BST" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://www.jianshu.com/c/c4a357e1ade3" target="_blank" title="简书">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  简书
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              友情链接
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://FutureWL.github.io" title="Future魏来" target="_blank">Future魏来</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://www.jxut.edu.cn" title="江西科技学院" target="_blank">江西科技学院</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://jxut-bst.github.io/BST-website/." title="概念站" target="_blank">概念站</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#赛事简介"><span class="nav-number">1.</span> <span class="nav-text">赛事简介</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#成果简介"><span class="nav-number">2.</span> <span class="nav-text">成果简介</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#出发"><span class="nav-number">2.1.</span> <span class="nav-text">出发</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#校内准备"><span class="nav-number">2.2.</span> <span class="nav-text">校内准备</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#比赛开始"><span class="nav-number">2.3.</span> <span class="nav-text">比赛开始</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#出成果"><span class="nav-number">2.4.</span> <span class="nav-text">出成果</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#喜悦"><span class="nav-number">2.5.</span> <span class="nav-text">喜悦</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#总结"><span class="nav-number">2.6.</span> <span class="nav-text">总结</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#蓝色技术工作室简介"><span class="nav-number">3.</span> <span class="nav-text">蓝色技术工作室简介</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#我们的创业案例"><span class="nav-number">3.1.</span> <span class="nav-text">我们的创业案例</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#酷尔科技有限公司"><span class="nav-number">3.1.1.</span> <span class="nav-text">酷尔科技有限公司</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#我们的新媒体平台"><span class="nav-number">3.2.</span> <span class="nav-text">我们的新媒体平台</span></a></li></ol></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="theme-info">
+</div>
+<div class="copyright">
+  
+  &copy;  2011 - 
+  <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-star"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">蓝色技术工作室</span>
+</div>
+
+
+
+        
+
+<div class="busuanzi-count">
+
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">本站访客数<span class="busuanzi-value" id="busuanzi_value_site_uv"></span>人次</span>
+  
+
+  
+    <span class="site-pv">本站总访问量<span class="busuanzi-value" id="busuanzi_value_site_pv"></span>次</span>
+  
+  
+</div>
+
+
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+  
+  
+  
+
+  
+
+  
+
+</body>
+</html>
