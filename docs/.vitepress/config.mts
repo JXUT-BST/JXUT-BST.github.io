@@ -1,7 +1,20 @@
 import { defineConfig } from 'vitepress'
 
+import { generateSidebar } from 'vitepress-sidebar';
+
+import AutoSidebarPlugin from 'vitepress-auto-sidebar-plugin'
+
+const vitepressSidebarOptions = {
+  /* Options... */
+  // documentRootPath: '/docs',
+  // scanStartPath: 'about',
+  // useTitleFromFileHeading: true
+};
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+
+
   lang: 'zh-CN',
   title: "JXUT-BST-IO-VitePress",
   description: "A VitePress Site",
@@ -20,26 +33,20 @@ export default defineConfig({
       { text: '关于我们', link: '/about/index' }
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        collapsed: false,
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      },
-      {
-        text: '关于我们',
-        items: [
-          { text: '关于工作室', link: '/about/index' },
-          { text: '历届负责人', link: '/about/bster/leader/index' },
-        ]
-      }
-    ],
+    sidebar: generateSidebar(vitepressSidebarOptions),
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
-  }
+  },
+
+  // vite: {
+  //   plugins: [
+  //     AutoSidebarPlugin({
+  //       // 如果不指定 `srcDir`，则默认使用 `vitepress` 的 `srcDir`
+  //       srcDir: './docs',
+
+  //     }),
+  //   ],
+  // },
 })
