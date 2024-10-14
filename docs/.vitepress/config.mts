@@ -11,17 +11,29 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: '/bst-logo.svg',
 
+    search: {
+      provider: 'local'
+    },
+
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页', link: '/' },
+      { text: '关于我们', link: '/about/index' }
     ],
 
     sidebar: [
       {
         text: 'Examples',
+        collapsed: false,
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
+        ]
+      },
+      {
+        text: '关于我们',
+        items: [
+          { text: '关于工作室', link: '/about/index' },
+          { text: '历届负责人', link: '/about/bster/leader/index' },
         ]
       }
     ],
