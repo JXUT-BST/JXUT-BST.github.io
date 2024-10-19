@@ -12,14 +12,11 @@ hero:
   actions:
     - theme: brand
       text: 关于我们
-      link: /about/index
+      link: /about/about-bst
 
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: API Docs
+      link: /api-docs/api-examples
 
 features:
   - icon: 😎

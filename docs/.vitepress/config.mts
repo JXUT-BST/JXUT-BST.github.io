@@ -1,15 +1,40 @@
 import { defineConfig } from 'vitepress'
 
+//TODO 添加自动生成侧边栏功能
+
 import { generateSidebar } from 'vitepress-sidebar';
 
-import AutoSidebarPlugin from 'vitepress-auto-sidebar-plugin'
-
-const vitepressSidebarOptions = {
+const vitepressSidebarOptions = [
   /* Options... */
-  // documentRootPath: '/docs',
-  // scanStartPath: 'about',
-  // useTitleFromFileHeading: true
-};
+  {
+    documentRootPath: '/docs',
+    scanStartPath: 'api-docs',
+    basePath: '/api-docs/',
+    resolvePath: '/api-docs/',
+    collapsed: false,
+    capitalizeFirst: true,
+    useTitleFromFileHeading: true,
+    useTitleFromFrontmatter: true,
+    frontmatterOrderDefaultValue: 9,
+    sortMenusByFrontmatterOrder: true,
+  },
+  {
+    debugPrint: true,
+    documentRootPath: '/docs',
+    scanStartPath: 'about',
+    basePath: '/about/',
+    resolvePath: '/about/',
+    collapsed: true,
+    collapseDepth:3,
+    capitalizeFirst: true,
+    useTitleFromFileHeading: true,
+    useTitleFromFrontmatter: true,
+    sortMenusByFrontmatterOrder: true,
+    useFolderTitleFromIndexFile: true,
+    useFolderLinkFromIndexFile: true,
+  },
+
+];
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
