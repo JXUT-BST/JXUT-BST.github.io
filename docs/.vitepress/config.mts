@@ -1,9 +1,8 @@
 import { defineConfig } from 'vitepress'
 
-//TODO 添加自动生成侧边栏功能
-
 import { generateSidebar } from 'vitepress-sidebar';
 
+// https://vitepress-sidebar.cdget.com/zhHans/introduction
 const vitepressSidebarOptions = [
   /* Options... */
   {
