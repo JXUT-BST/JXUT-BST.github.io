@@ -11,6 +11,9 @@ importers:
       vitepress:
         specifier: ^1.4.1
         version: 1.4.1(@algolia/client-search@4.24.0)(postcss@8.4.47)(search-insights@2.17.2)
+      vitepress-i18n:
+        specifier: ^1.0.6
+        version: 1.0.6
       vitepress-sidebar:
         specifier: ^1.27.1
         version: 1.27.1
@@ -870,6 +873,10 @@ packages:
         optional: true
       terser:
         optional: true
+
+  vitepress-i18n@1.0.6:
+    resolution: {integrity: sha512-SNiOrA+mLFMyL9+Fkrqp7iGM+M+Gzg3fsT1nY7li3JlrFkRu4sal/rKXtKDZrqQGFd7blIdTurYGBe27bMxs7g==}
+    engines: {node: '>=18.0.0'}
 
   vitepress-sidebar@1.27.1:
     resolution: {integrity: sha512-MdqDp5urRfSzvRqck6SMJAWXt71L4ZRepe9myBSy5jI779t4/ZXnl09yew/xGvBvgUPupCaZyNCk+XLYj7Rciw==}
@@ -1756,6 +1763,8 @@ snapshots:
       rollup: 4.24.0
     optionalDependencies:
       fsevents: 2.3.3
+
+  vitepress-i18n@1.0.6: {}
 
   vitepress-sidebar@1.27.1:
     dependencies:

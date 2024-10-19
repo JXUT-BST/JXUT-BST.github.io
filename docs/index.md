@@ -25,3 +25,4 @@ features:
 
 ---
 
+<!-- @include: ./about/about-bst.md{3,3} -->
