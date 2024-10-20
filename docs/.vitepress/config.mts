@@ -66,6 +66,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '关于我们', link: '/about/about-bst' },
+      { text: '加入我们', link: '/contact/join-us' },
       { text: '知识库', link: 'https://eab6f7z1wy1.feishu.cn/wiki/NOW6w8DUriguJskA5p0cKUjenmc?from=from_copylink' },
     ],
 
