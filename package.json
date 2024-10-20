@@ -1,6 +1,8 @@
 {
   "devDependencies": {
     "vitepress": "^1.4.1",
+    "vitepress-i18n": "^1.0.6",
+    "vitepress-sidebar": "^1.27.1",
     "vue": "^3.5.12"
   },
   "scripts": {
