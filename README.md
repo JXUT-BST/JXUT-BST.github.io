@@ -24,10 +24,8 @@
 │   │   ├── index.md          # 资源列表页
 │   │   └── tutorial-1.md     # 教程1详情页
 │   │   └── tutorial-2.md     # 教程2详情页
-│   ├── join-us/              # 加入我们页面目录
-│   │   └── index.md          # 加入我们页面内容
 │   ├── contact/              # 联系我们页面目录
-│   │   └── index.md          # 联系我们页面内容
+│   │   └── join-us.md        # 加入我们页面内容
 │   └── partners/             # 合作伙伴页面目录
 │       └── index.md          # 合作伙伴页面内容
 ├── public/                   # 公共资源文件（如图片、字体）
