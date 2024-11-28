@@ -44,7 +44,7 @@ const footerConfig = ref( {
     showFooter: true, // 是否显示页脚
     icpRecordCode: '赣ICP备19006787号-2', // ICP备案号
     publicSecurityRecordCode: '', // 联网备案号
-    copyright: `Copyright © 2019-${new Date().getFullYear()} JXUT BST` // 版权信息
+    copyright: `Copyright © 2017-${new Date().getFullYear()} JXUT BST` // 版权信息
   })
 </script>
 
