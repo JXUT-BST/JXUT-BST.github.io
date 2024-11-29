@@ -3,7 +3,9 @@
 蓝色技术工作室(*Blue Studio of Technology*)，成立于2011年，是江西科技学院的的学生科技创新团队，受校团委及创新创业领导小组指导。下设五大专业组，汇聚全校精英。工作室以实践育人为核心，通过参与高水平竞赛，如智能汽车、机器人大赛等，提升成员科技创新能力。秉持自主管理、开放合作理念，促进跨学科交流，共研项目，屡获国省级殊荣，被评为全国及江西省“活力社团”TOP榜成员，展现科技自强风采。
 
 ::: info
-[查看获得的奖项](https://eab6f7z1wy1.feishu.cn/base/TjMBbDaK9a6luAsSznQcyEBEnze?from=from_copylink)
+- [奖项查询](https://eab6f7z1wy1.feishu.cn/share/base/query/shrcnlUAYhnx0RIfV5lieoTIJCe)
+
+- [奖项统计](https://eab6f7z1wy1.feishu.cn/base/TjMBbDaK9a6luAsSznQcyEBEnze?from=from_copylink)
 :::
 
 ## 介绍
