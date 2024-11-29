@@ -39,4 +39,4 @@ features:
 
 <!-- @include: ./about/about-bst.md{3,3} -->
 
-<Footer />
+<Footer :icpRecordCode="'赣ICP备19006787号-2'" :copyright="`Copyright © 2017-${new Date().getFullYear()} JXUT BST`" />

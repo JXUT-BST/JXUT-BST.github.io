@@ -1,13 +1,13 @@
-<!-- 备案展示实现方式参考 https://github.com/Charles7c/charles7c.github.io/blob/main/docs/.vitepress/theme/components/layout/Footer.vue-->
-<script setup>
-import { ref } from 'vue'
+<!-- 备案展示实现方式参考 https://github.com/Charles7c/charles7c.github.io/blob/main/docs/.vitepress/theme/components/layout/Footer.vue -->
+<script setup lang="ts">
+interface footerConfigProps {
+    icpRecordCode: string // ICP备案号
+    publicSecurityRecordCode: string // 联网备案号
+    copyright: string // 版权信息
+}
 
-const footerConfig = ref({
-    showFooter: true, // 是否显示页脚
-    icpRecordCode: '赣ICP备19006787号-2', // ICP备案号
-    publicSecurityRecordCode: '', // 联网备案号
-    copyright: `Copyright © 2017-${new Date().getFullYear()} JXUT BST` // 版权信息
-})
+const footerConfig = defineProps < footerConfigProps > ();
+
 </script>
 
 <template>
