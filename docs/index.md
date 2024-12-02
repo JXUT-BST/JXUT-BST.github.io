@@ -36,7 +36,7 @@ features:
     details: 提供丰富的竞赛技术文档、工具及相关资源，帮助成员高效备赛。
 
 ---
-
+<Home />
 <!-- @include: ./about/about-bst.md{3,3} -->
 
 <Footer :icpRecordCode="'赣ICP备19006787号-2'" :copyright="`Copyright © 2017-${new Date().getFullYear()} JXUT BST`" />
