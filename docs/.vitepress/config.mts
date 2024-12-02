@@ -75,9 +75,9 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/JXUT-BST' }
     ],
-
+    // FIXME :在页面上点击editLink无效,是VitePress I18n插件的问题，已报告，待修复
     editLink: {
-      pattern: 'https://github.com/JXUT-BST/JXUT-BST-IO-VitePress/issues',
+      pattern: 'https://github.com/JXUT-BST/JXUT-BST.github.io/edit/main/docs/:path',
     },
   },
 })
