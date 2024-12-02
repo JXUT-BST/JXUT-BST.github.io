@@ -3,6 +3,8 @@ import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
+
+import '@theojs/lumen/doc-blocks'
 import { HomeUnderline } from '@theojs/lumen'
 
 import Footer from "./components/Footer.vue"
