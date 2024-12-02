@@ -1,8 +1,9 @@
 import { defineConfig } from 'vitepress'
-
+import type { UserConfig } from 'vitepress';
 import { generateSidebar } from 'vitepress-sidebar';
 
-import { generateI18nLocale, generateI18nSearch } from 'vitepress-i18n';
+import VitePressI18n from 'vitepress-i18n';
+import VitePressI18nOptions from 'vitepress-i18n';
 
 // https://vitepress-sidebar.cdget.com/zhHans/introduction
 const vitepressSidebarOptions = [
@@ -37,31 +38,26 @@ const vitepressSidebarOptions = [
 
 ];
 
-// https://vitepress.dev/reference/site-config
-export default defineConfig({
+const vitePressI18nConfig: VitePressI18nOptions = {
+  locales: ['zhHans'],
+  searchProvider: 'local',
+};
+
+const vitePressConfig: UserConfig = {
   lang: 'zh-CN',
   title: "JXUT-BST-IO-VitePress",
   description: "A VitePress Site",
   head: [["link", { rel: "icon", href: "/bst-logo.svg" }]],
   lastUpdated: true,
 
-  locales: generateI18nLocale({
-    defineLocales: [
-      { label: 'zhHans', translateLocale: 'zhHans' },
-    ],
-    rootLocale: 'zhHans',
-  }),
-
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/bst-logo.svg',
 
     // 设置搜索框的样式
-    search: generateI18nSearch({
-      defineLocales: [{ label: 'zhHans', translateLocale: 'zhHans' }],
-      rootLocale: 'zhHans',
-      provider: 'local'
-    }),
+    search: {
+      provider: 'local',
+    },
 
     nav: [
       { text: '首页', link: '/' },
@@ -75,9 +71,12 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/JXUT-BST' }
     ],
-    // FIXME :在页面上点击editLink无效,是VitePress I18n插件的问题，已报告，待修复
+
     editLink: {
       pattern: 'https://github.com/JXUT-BST/JXUT-BST.github.io/edit/main/docs/:path',
     },
-  },
-})
+  }
+};
+
+// https://vitepress.dev/reference/site-config
+export default defineConfig(VitePressI18n.withI18n(vitePressConfig, vitePressI18nConfig));
