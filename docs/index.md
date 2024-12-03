@@ -15,8 +15,16 @@ hero:
       link: /about/about-bst
 
     - theme: alt
+      text: 活动推文
+      link: /posts
+
+    - theme: alt
       text: API Docs
       link: /api-docs/api-examples
+
+    - theme: brand
+      text: 加入我们
+      link: /contact/join-us
 
 features:
   - icon: 🛠️
