@@ -35,21 +35,6 @@ const vitePressSidebarOptions = [
     useFolderTitleFromIndexFile: true,
     useFolderLinkFromIndexFile: true,
   },
-  {
-    debugPrint: true,
-    documentRootPath: '/docs',
-    scanStartPath: 'posts',
-    basePath: '/posts/',
-    resolvePath: '/posts/',
-    collapsed: true,
-    collapseDepth: 3,
-    capitalizeFirst: true,
-    useTitleFromFileHeading: true,
-    useTitleFromFrontmatter: true,
-    sortMenusByFrontmatterOrder: true,
-    useFolderTitleFromIndexFile: true,
-    useFolderLinkFromIndexFile: true,
-  },
 ];
 
 const vitePressI18nConfig: VitePressI18nOptions = {
@@ -69,6 +54,9 @@ const vitePressConfig: UserConfig = {
       // 开启图片懒加载
       lazyLoading: true
     },
+  },
+  sitemap: {
+    hostname: 'https://lansejishu.com'
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
