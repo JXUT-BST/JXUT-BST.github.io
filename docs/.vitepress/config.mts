@@ -35,7 +35,21 @@ const vitePressSidebarOptions = [
     useFolderTitleFromIndexFile: true,
     useFolderLinkFromIndexFile: true,
   },
-
+  {
+    debugPrint: true,
+    documentRootPath: '/docs',
+    scanStartPath: 'posts',
+    basePath: '/posts/',
+    resolvePath: '/posts/',
+    collapsed: true,
+    collapseDepth: 3,
+    capitalizeFirst: true,
+    useTitleFromFileHeading: true,
+    useTitleFromFrontmatter: true,
+    sortMenusByFrontmatterOrder: true,
+    useFolderTitleFromIndexFile: true,
+    useFolderLinkFromIndexFile: true,
+  },
 ];
 
 const vitePressI18nConfig: VitePressI18nOptions = {
@@ -49,17 +63,23 @@ const vitePressConfig: UserConfig = {
   description: "A VitePress Site",
   head: [["link", { rel: "icon", href: "/bst-logo.svg" }]],
   lastUpdated: true,
-
+  cleanUrls: true,  // 开启后网址后缀无'html'
+  markdown: {
+    image: {
+      // 开启图片懒加载
+      lazyLoading: true
+    },
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/bst-logo.svg',
-
+    logo: { src: '/bst-logo.svg', width: 24, height: 24 },
     search: {
       provider: 'local',
     },
 
     nav: [
       { text: '首页', link: '/' },
+      { text: '活动推文', link: '/posts' },
       { text: '关于我们', link: '/about/about-bst' },
       { text: '加入我们', link: '/contact/join-us' },
       { text: '知识库', link: 'https://eab6f7z1wy1.feishu.cn/wiki/NOW6w8DUriguJskA5p0cKUjenmc?from=from_copylink' },
@@ -77,5 +97,5 @@ const vitePressConfig: UserConfig = {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig(
-  withSidebar(VitePressI18n.withI18n(vitePressConfig, vitePressI18nConfig), vitePressSidebarOptions)
+  withSidebar(VitePressI18n.withI18n(vitePressConfig, vitePressI18nConfig), vitePressSidebarOptions),
 );
