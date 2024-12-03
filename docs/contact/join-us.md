@@ -6,7 +6,7 @@
     [点击加入](https://qm.qq.com/q/HvMQU9y5a0)
 
 - 微信公众号
-    ![wx_qrcode](../assets/img/join-us/wx_qrcode.png)
+    ![wx_qrcode](../assets/img/contact/join-us/wx_qrcode.png)
 
 ## 办公地址
 

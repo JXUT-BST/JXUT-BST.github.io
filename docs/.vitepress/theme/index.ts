@@ -13,15 +13,11 @@ import { useData, useRoute } from 'vitepress';
 
 import Footer from "./components/Footer.vue"
 
-import { HomeFooter } from '@theojs/lumen'
-import { Footer_Data } from '../data/footerData'
-
 export default {
   extends: DefaultTheme,
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
-      // 'layout-bottom': () => h(HomeFooter, { Footer_Data }) 
     })
   },
   enhanceApp({ app, router, siteData }) {
