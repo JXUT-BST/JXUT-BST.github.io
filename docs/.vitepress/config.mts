@@ -51,8 +51,18 @@ const vitePressConfig: UserConfig = {
   vite: {
     plugins: [
       GitChangelog({
-        // 填写在此处填写您的仓库链接
         repoURL: () => 'https://github.com/JXUT-BST/JXUT-BST.github.io',
+        mapAuthors: [
+          {
+            name: 'JXUT-BST',
+            username: 'JXUT-BST',
+            mapByNameAliases: ['JXUT-BST', 'JXUT BST', '蓝色技术工作室'],
+          },
+          {
+            name: 'Alaye-Dong',
+            username: 'Alaye-Dong',
+          },
+        ],
       }),
       GitChangelogMarkdownSection(),
     ],
