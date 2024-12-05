@@ -52,12 +52,11 @@ const vitePressConfig: UserConfig = {
     plugins: [
       GitChangelog({
         repoURL: () => 'https://github.com/JXUT-BST/JXUT-BST.github.io',
-        // TODO 研究实现自动map{name，username}获取Github用户头像及链接
         mapAuthors: [
           {
             name: 'JXUT-BST',
             username: 'JXUT-BST',
-            mapByNameAliases: ['JXUT-BST', 'JXUT-BST', '蓝色技术工作室'],
+            mapByNameAliases: ['JXUT-BST', 'JXUT BST', '蓝色技术工作室'],
           },
           {
             name: 'Alaye-Dong',

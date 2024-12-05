@@ -29,7 +29,10 @@ export default {
     // 注册全局组件
     app.component('Footer', Footer)
     app.component('Home', HomeUnderline)
-    app.use(NolebaseGitChangelogPlugin)
+    app.use(NolebaseGitChangelogPlugin, {
+      // https://nolebase-integrations.ayaka.io/pages/zh-CN/integrations/vitepress-plugin-git-changelog/configure-ui#%E9%85%8D%E7%BD%AE%E9%80%89%E9%A1%B9
+      // 把选项填写在这里吧...
+    }) 
   },
   setup() {
     // Get frontmatter and route
