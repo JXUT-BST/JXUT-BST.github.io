@@ -35,3 +35,7 @@
 ├── .gitignore                # Git 忽略文件
 └── README.md                 # 项目说明文档
 ```
+
+## TODO
+
+- [ ] 添加 page contributors 可以参考[chodocs](https://github.com/chodocs/chodocs/pull/21/commits),似乎有插件实现了[vitepress-plugin-git-changelog](https://nolebase-integrations.ayaka.io/pages/zh-CN/integrations/vitepress-plugin-git-changelog/getting-started#%E5%9C%A8%E5%8D%95%E7%8B%AC%E7%9A%84-vite-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%B8%AD%E9%85%8D%E7%BD%AE-vite-%E6%8F%92%E4%BB%B6)

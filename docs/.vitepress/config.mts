@@ -5,6 +5,11 @@ import { withSidebar } from 'vitepress-sidebar';
 import VitePressI18n from 'vitepress-i18n';
 import VitePressI18nOptions from 'vitepress-i18n';
 
+import {
+  GitChangelog,
+  GitChangelogMarkdownSection,
+} from '@nolebase/vitepress-plugin-git-changelog/vite'
+
 // https://vitepress-sidebar.cdget.com/zhHans/introduction
 const vitePressSidebarOptions = [
   /* Options... */
@@ -43,6 +48,15 @@ const vitePressI18nConfig: VitePressI18nOptions = {
 };
 
 const vitePressConfig: UserConfig = {
+  vite: {
+    plugins: [
+      GitChangelog({
+        // 填写在此处填写您的仓库链接
+        repoURL: () => 'https://github.com/JXUT-BST/JXUT-BST.github.io',
+      }),
+      GitChangelogMarkdownSection(),
+    ],
+  }, 
   lang: 'zh-CN',
   title: "JXUT-BST-IO-VitePress",
   description: "A VitePress Site",
