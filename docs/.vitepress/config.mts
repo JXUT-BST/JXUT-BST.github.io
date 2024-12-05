@@ -33,7 +33,7 @@ const vitePressSidebarOptions = [
     useTitleFromFrontmatter: true,
     sortMenusByFrontmatterOrder: true,
     useFolderTitleFromIndexFile: true,
-    useFolderLinkFromIndexFile: true,
+    useFolderLinkFromIndexFile: true, // 使用index文件作为侧边栏链接
   },
 ];
 
