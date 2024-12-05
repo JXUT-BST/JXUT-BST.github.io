@@ -1,6 +1,7 @@
 {
   "type": "module",
   "devDependencies": {
+    "@chunge16/vitepress-blogs-theme": "^0.2.4",
     "vitepress": "^1.5.0",
     "vitepress-i18n": "^1.3.0",
     "vitepress-plugin-comment-with-giscus": "^1.1.15",
