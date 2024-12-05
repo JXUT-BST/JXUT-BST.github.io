@@ -38,4 +38,4 @@
 
 ## TODO
 
-- [ ] 添加 page contributors 可以参考[chodocs](https://github.com/chodocs/chodocs/pull/21/commits),似乎有插件实现了[vitepress-plugin-git-changelog](https://blog.damokeris.com/%E7%9B%AE%E5%89%8D%E5%8F%AF%E5%85%AC%E5%BC%80%E7%9A%84%E8%B5%84%E6%96%99/vitepress/5-vitepress-03.html)
+- [ ] 添加 page contributors 可以参考[chodocs](https://github.com/chodocs/chodocs/pull/21/commits),似乎有插件实现了[vitepress-plugin-git-changelog](https://nolebase-integrations.ayaka.io/pages/zh-CN/integrations/vitepress-plugin-git-changelog/getting-started#%E5%9C%A8%E5%8D%95%E7%8B%AC%E7%9A%84-vite-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%B8%AD%E9%85%8D%E7%BD%AE-vite-%E6%8F%92%E4%BB%B6)

@@ -4,6 +4,11 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style/index.css'
 
+import {
+  NolebaseGitChangelogPlugin
+} from '@nolebase/vitepress-plugin-git-changelog/client'
+import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
+
 import '@theojs/lumen/doc-blocks'
 import '@theojs/lumen/icon' /* 图标 */
 import { HomeUnderline } from '@theojs/lumen'
@@ -23,7 +28,8 @@ export default {
   enhanceApp({ app, router, siteData }) {
     // 注册全局组件
     app.component('Footer', Footer)
-    app.component('Home', HomeUnderline) 
+    app.component('Home', HomeUnderline)
+    app.use(NolebaseGitChangelogPlugin)
   },
   setup() {
     // Get frontmatter and route
