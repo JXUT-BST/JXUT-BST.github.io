@@ -86,12 +86,13 @@ const vitePressConfig: UserConfig = {
       lazyLoading: true
     },
     
-    // 懒加载模糊预览图
-    config: (md) => {
-      md.use(UnlazyImages(), {
-        imgElementTag: 'NolebaseUnlazyImg',
-      })
-    }
+    // FIXME 使用后开发服务器正常，但构建后图片会一直显示模糊图请求原图失败
+    // // 懒加载模糊预览图
+    // config: (md) => {
+    //   md.use(UnlazyImages(), {
+    //     imgElementTag: 'NolebaseUnlazyImg',
+    //   })
+    // },
   },
 
   sitemap: {
