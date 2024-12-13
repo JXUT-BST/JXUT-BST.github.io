@@ -14,7 +14,7 @@ import {
 } from '@nolebase/vitepress-plugin-thumbnail-hash/client'
 import '@nolebase/vitepress-plugin-thumbnail-hash/client/style.css'
 
-import '@theojs/lumen/doc-blocks'
+// import '@theojs/lumen/doc-blocks'
 import '@theojs/lumen/icon' /* 图标 */
 import { HomeUnderline } from '@theojs/lumen'
 
