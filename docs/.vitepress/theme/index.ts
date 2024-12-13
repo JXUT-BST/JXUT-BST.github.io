@@ -5,9 +5,14 @@ import DefaultTheme from 'vitepress/theme'
 import './style/index.css'
 
 import {
-  NolebaseGitChangelogPlugin
+  NolebaseGitChangelogPlugin,
 } from '@nolebase/vitepress-plugin-git-changelog/client'
 import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
+
+import {
+  NolebaseUnlazyImg,
+} from '@nolebase/vitepress-plugin-thumbnail-hash/client'
+import '@nolebase/vitepress-plugin-thumbnail-hash/client/style.css'
 
 import '@theojs/lumen/doc-blocks'
 import '@theojs/lumen/icon' /* 图标 */
@@ -29,6 +34,7 @@ export default {
     // 注册全局组件
     app.component('Footer', Footer)
     app.component('Home', HomeUnderline)
+    app.component('NolebaseUnlazyImg', NolebaseUnlazyImg) 
     app.use(NolebaseGitChangelogPlugin, {
       // https://nolebase-integrations.ayaka.io/pages/zh-CN/integrations/vitepress-plugin-git-changelog/configure-ui#%E9%85%8D%E7%BD%AE%E9%80%89%E9%A1%B9
       // 把选项填写在这里吧...

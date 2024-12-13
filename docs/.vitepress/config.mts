@@ -10,6 +10,12 @@ import {
   GitChangelogMarkdownSection,
 } from '@nolebase/vitepress-plugin-git-changelog/vite'
 
+import {
+  ThumbnailHashImages,
+} from '@nolebase/vitepress-plugin-thumbnail-hash/vite'
+
+import { UnlazyImages } from '@nolebase/markdown-it-unlazy-img'
+
 // https://vitepress-sidebar.cdget.com/zhHans/introduction
 const vitePressSidebarOptions = [
   /* Options... */
@@ -65,6 +71,7 @@ const vitePressConfig: UserConfig = {
         ],
       }),
       GitChangelogMarkdownSection(),
+      ThumbnailHashImages(), 
     ],
   }, 
   lang: 'zh-CN',
@@ -78,7 +85,15 @@ const vitePressConfig: UserConfig = {
       // 开启图片懒加载
       lazyLoading: true
     },
+    
+    // 懒加载模糊预览图
+    config: (md) => {
+      md.use(UnlazyImages(), {
+        imgElementTag: 'NolebaseUnlazyImg',
+      })
+    }
   },
+
   sitemap: {
     hostname: 'https://lansejishu.com'
   },
