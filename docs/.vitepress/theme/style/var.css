@@ -142,3 +142,8 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+/* https: //nolebase-integrations.ayaka.io/pages/zh-CN/integrations/vitepress-plugin-enhanced-readabilities/#%E6%B7%BB%E5%8A%A0-vitepress-%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3%E7%9A%84%E9%85%8D%E7%BD%AE */
+/* 解决导航栏社交链接对齐 */
+.VPSocialLinks.VPNavBarSocialLinks.social-links {
+  margin-right: 0;
+}

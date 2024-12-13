@@ -3,6 +3,7 @@
   "devDependencies": {
     "@chunge16/vitepress-blogs-theme": "^0.2.4",
     "@nolebase/markdown-it-unlazy-img": "^2.11.1",
+    "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.11.1",
     "@nolebase/vitepress-plugin-git-changelog": "^2.11.1",
     "@nolebase/vitepress-plugin-thumbnail-hash": "^2.11.1",
     "vite": "^6.0.2",
