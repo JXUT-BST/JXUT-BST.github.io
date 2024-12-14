@@ -20,7 +20,7 @@ hero:
 
     - theme: alt
       text: API Docs
-      link: /api-docs/api-examples
+      link: /api-docs/how-to-dev
 
     - theme: brand
       text: 加入我们
