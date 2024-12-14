@@ -100,7 +100,7 @@ const vitePressConfig: UserConfig = {
       lazyLoading: true
     },
     
-    // FIXME 使用后开发服务器正常，但构建后图片会一直显示模糊图请求原图失败
+    // FIXME 使用后开发服务器正常，但构建后图片会一直显示模糊图请求原图失败，猜测是md文件中文命名的问题，待研究解决
     // // 懒加载模糊预览图
     // config: (md) => {
     //   md.use(UnlazyImages(), {
