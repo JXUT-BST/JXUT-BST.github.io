@@ -71,7 +71,7 @@ const vitePressConfig: UserConfig = {
         ],
       }),
       GitChangelogMarkdownSection(),
-      ThumbnailHashImages(), 
+      ThumbnailHashImages(),
     ],
     optimizeDeps: {
       exclude: [
@@ -86,8 +86,8 @@ const vitePressConfig: UserConfig = {
         '@nolebase/vitepress-plugin-enhanced-readabilities',
         '@nolebase/ui',
       ],
-    }, 
-  }, 
+    },
+  },
   lang: 'zh-CN',
   title: "JXUT-BST-IO-VitePress",
   description: "A VitePress Site",
@@ -99,7 +99,7 @@ const vitePressConfig: UserConfig = {
       // 开启图片懒加载
       lazyLoading: true
     },
-    
+
     // FIXME 使用后开发服务器正常，但构建后图片会一直显示模糊图请求原图失败，猜测是md文件中文命名的问题，待研究解决
     // // 懒加载模糊预览图
     // config: (md) => {
@@ -122,7 +122,13 @@ const vitePressConfig: UserConfig = {
     nav: [
       { text: '首页', link: '/' },
       { text: '活动推文', link: '/posts' },
-      { text: '关于我们', link: '/about/about-bst' },
+      {
+        text: '关于我们',
+        items: [
+          { text: '工作室', link: '/about/about-bst' },
+          { text: '团队成员', link: '/team' },
+        ]
+      },
       { text: '加入我们', link: '/contact/join-us' },
       { text: '知识库', link: 'https://eab6f7z1wy1.feishu.cn/wiki/NOW6w8DUriguJskA5p0cKUjenmc?from=from_copylink' },
     ],
