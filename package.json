@@ -16,7 +16,8 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "docs:test": "vitepress build docs && vitepress preview docs"
   },
   "dependencies": {
     "@theojs/lumen": "^5.0.2"
