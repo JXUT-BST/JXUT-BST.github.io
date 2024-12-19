@@ -16,6 +16,8 @@ import {
 
 import { UnlazyImages } from '@nolebase/markdown-it-unlazy-img'
 
+import socialIcons from './theme/support/socialIcons'
+
 // https://vitepress-sidebar.cdget.com/zhHans/introduction
 const vitePressSidebarOptions = [
   /* Options... */
@@ -145,7 +147,15 @@ const vitePressConfig: UserConfig = {
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/JXUT-BST' }
+      { icon: 'github', link: 'https://github.com/JXUT-BST' },
+      {
+        icon: {
+          svg: socialIcons.qq,
+        },
+        link: 'https://qm.qq.com/q/HvMQU9y5a0',
+        // 为无障碍添加一个自定义标签 (可选但推荐):
+        ariaLabel: 'qq group link'
+      }
     ],
 
     editLink: {

@@ -1,4 +1,5 @@
 // 实现参考Vite团队页
+import socialIcons from "../.vitepress/theme/support/socialIcons.ts";
 export const core = [
   {
     avatar: 'https://www.github.com/Alaye-Dong.png',
@@ -9,6 +10,8 @@ export const core = [
     desc: '嵌入式软件、前端开发',
     links: [
       { icon: 'github', link: 'https://github.com/Alaye-Dong' },
+      { icon: { svg: socialIcons.bilibili }, link: 'https://space.bilibili.com/316372626' },
+      { icon: { svg: socialIcons.email }, link: 'mailto:alayevast@outlook.com' },
     ],
     sponsor: '',
   },
@@ -32,7 +35,7 @@ export const core = [
     orgLink: '',
     desc: '三维建模设计、装配仿真',
     links: [
-      
+
     ],
     sponsor: '',
   },
