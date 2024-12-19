@@ -21,13 +21,13 @@ Enhanced Theme
 
 ✨ 集成 Vue 功能组件和主题美化的 VitePress 插件
 
-[Github仓库](https://github.com/Theo-Messi/Theo-Docs)
+[Github仓库](https://github.com/Theo-Messi/lumen)
 
 ## @nolebase/vitepress-plugin-git-changelog
 
 在 VitePress 站点中添加一个基于 Git 的页面历史记录功能
 
-[Github仓库](https://github.com/Theo-Messi/Theo-Docs)
+[Github仓库](https://github.com/nolebase/integrations)
 
 [配置文档](https://nolebase-integrations.ayaka.io/pages/zh-CN/integrations/vitepress-plugin-git-changelog/)
 
