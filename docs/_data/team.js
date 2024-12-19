@@ -10,7 +10,8 @@ export const core = [
     desc: '嵌入式软件、前端开发',
     links: [
       { icon: 'github', link: 'https://github.com/Alaye-Dong' },
-      { icon: {svg:socialIcons.email}, link: 'mailto:alayevast@outlook.com'},
+      { icon: { svg: socialIcons.bilibili }, link: 'https://space.bilibili.com/316372626' },
+      { icon: { svg: socialIcons.email }, link: 'mailto:alayevast@outlook.com' },
     ],
     sponsor: '',
   },
