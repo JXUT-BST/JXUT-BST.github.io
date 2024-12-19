@@ -32,7 +32,7 @@ export const core = [
     orgLink: '',
     desc: '三维建模设计、装配仿真',
     links: [
-      
+
     ],
     sponsor: '',
   },

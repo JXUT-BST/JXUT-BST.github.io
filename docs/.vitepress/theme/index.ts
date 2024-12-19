@@ -27,6 +27,7 @@ import { HomeUnderline } from '@theojs/lumen'
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import { useData, useRoute } from 'vitepress';
 
+// @ts-ignore
 import Footer from "./components/Footer.vue"
 
 export default {
