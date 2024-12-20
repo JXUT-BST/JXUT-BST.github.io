@@ -16,6 +16,7 @@ import {
 
 import { UnlazyImages } from '@nolebase/markdown-it-unlazy-img'
 
+// @ts-ignore
 import socialIcons from './theme/support/socialIcons'
 
 // https://vitepress-sidebar.cdget.com/zhHans/introduction
@@ -58,6 +59,8 @@ const vitePressI18nConfig: VitePressI18nOptions = {
 const vitePressConfig: UserConfig = {
   vite: {
     plugins: [
+      // FIXME VSCode报错异常，实际并不会影响运行，所以暂时使用 @ts-ignore 强制忽视报错
+      // @ts-ignore
       GitChangelog({
         repoURL: () => 'https://github.com/JXUT-BST/JXUT-BST.github.io',
         mapAuthors: [
@@ -72,7 +75,9 @@ const vitePressConfig: UserConfig = {
           },
         ],
       }),
+      // @ts-ignore
       GitChangelogMarkdownSection(),
+      // @ts-ignore
       ThumbnailHashImages(),
     ],
     optimizeDeps: {
