@@ -1,3 +1,13 @@
+<script setup>
+import {
+  VPTeamPage,
+  VPTeamPageTitle,
+  VPTeamPageSection,
+  VPTeamMembers
+} from 'vitepress/theme'
+import { bst } from '../_data/team'
+</script>
+
 # 加入我们
 
 ## 联系方式
@@ -11,3 +21,5 @@
 ## 办公地址
 
 江西科技学院红绿蓝众创空间201蓝色技术工作室
+
+<VPTeamMembers :members="bst" />
