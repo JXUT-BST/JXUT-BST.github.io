@@ -1,7 +1,7 @@
 ---
 title: 雪花灯锡焊实践
 authors: ['朱文月','刘美含']
-date: 2024-12-29
+date: 2024-11-29
 sidebar: false
 head:
   - - meta
