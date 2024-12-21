@@ -9,7 +9,7 @@ export const bst = [
     links: [
       { icon: 'github', link: 'https://github.com/JXUT-BST' },
       { icon: { svg: socialIcons.qq }, link: 'https://qm.qq.com/q/HvMQU9y5a0' },
-      { icon: { svg: socialIcons.wechat }, link: '/assets/img/contact/join-us/wx_qrcode.png' },
+      { icon: { svg: socialIcons.wechat }, link: 'https://mp.weixin.qq.com/s/jVg6DWfW3Tuc8HUj5zXkZQ' },
       { icon: { svg: socialIcons.map }, link: 'https://surl.amap.com/4XjAY6NOdarb' },
     ],
     sponsor: '', // TODO 注册添加工作室sponsor方式，可选爱发电或者Github官方方式sponsor
