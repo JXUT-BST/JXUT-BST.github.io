@@ -30,6 +30,15 @@ export const core = [
     sponsor: 'https://afdian.com/a/alayedong',
   },
   {
+    avatar: 'https://www.github.com/huangjiawen123.png',
+    name: 'huangjiawen123',
+    title: '23智能车队长、24理事会干事',
+    desc: '嵌入式软件、前端开发',
+    links: 
+      { icon: 'github', link: 'https://github.com/huangjiawen123' },
+    ],
+  },
+  {
     avatar: 'https://www.github.com/Averyjhy.png',
     name: 'Averyjhy',
     title: '24会长、24软件队长',
