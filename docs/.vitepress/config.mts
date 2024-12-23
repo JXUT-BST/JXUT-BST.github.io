@@ -145,10 +145,16 @@ const vitePressConfig: UserConfig = {
         items: [
           { text: '工作室', link: '/about/about-bst' },
           { text: '团队成员', link: '/team' },
+          { text: '加入我们', link: '/contact/join-us' },
         ]
       },
-      { text: '加入我们', link: '/contact/join-us' },
-      { text: '知识库', link: 'https://eab6f7z1wy1.feishu.cn/wiki/NOW6w8DUriguJskA5p0cKUjenmc?from=from_copylink' },
+      {
+        text: '相关链接',
+        items: [
+          { text: 'API Docs', link: '/api-docs/how-to-dev' },
+          { text: '知识库', link: 'https://eab6f7z1wy1.feishu.cn/wiki/NOW6w8DUriguJskA5p0cKUjenmc?from=from_copylink' },
+        ]
+      },
     ],
 
     socialLinks: [

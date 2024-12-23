@@ -18,13 +18,13 @@ hero:
       text: 活动推文
       link: /posts
 
-    - theme: alt
-      text: API Docs
-      link: /api-docs/how-to-dev
-
     - theme: brand
       text: 加入我们
       link: /contact/join-us
+
+    - theme: alt
+      text: 蓝蓝🤖
+      link: /ai
 
 features:
   - icon: 🛠️
