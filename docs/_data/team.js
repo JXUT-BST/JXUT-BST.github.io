@@ -34,7 +34,7 @@ export const core = [
     name: 'huangjiawen123',
     title: '23智能车队长、24理事会干事',
     desc: '嵌入式软件、前端开发',
-    links: 
+    links: [
       { icon: 'github', link: 'https://github.com/huangjiawen123' },
     ],
   },
