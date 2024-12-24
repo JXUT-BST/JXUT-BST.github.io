@@ -59,8 +59,19 @@ order: 1
 
 首先需要从远程仓库克隆项目文件到本地计算机。执行以下命令：
 
-```bash
+```shell
 git clone https://github.com/JXUT-BST/JXUT-BST.github.io.git
+```
+::: warning 建议 
+为了更好地进行开发和贡献，建议先在 GitHub 上 🔱 [Fork](https://github.com/JXUT-BST/JXUT-BST.github.io/fork) 该项目到个人账户。可以在自己的仓库中完成开发和验证后，再向源仓库提交 Pull Request（[PR](https://github.com/JXUT-BST/JXUT-BST.github.io/pulls)）进行贡献。 
+:::
+
+#### 安装项目依赖包
+
+通过包管理器 `pnpm` 安装，打开项目所在目录，执行以下命令：
+
+```shell
+pnpm install
 ```
 
 ## 开发流程
@@ -119,7 +130,7 @@ pnpm run docs:dev
 
 ### 问题反馈
 
-有任何问题及反馈，请移步[issues](https://github.com/JXUT-BST/JXUT-BST.github.io/issues)。
+有任何问题及反馈，请移步 [issues](https://github.com/JXUT-BST/JXUT-BST.github.io/issues)。
 
 ## 附录
 
