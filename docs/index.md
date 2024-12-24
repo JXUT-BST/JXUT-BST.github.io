@@ -23,7 +23,7 @@ hero:
       link: /contact/join-us
 
     - theme: alt
-      text: 蓝蓝🤖
+      text: AI助手🤖
       link: /ai
 
 features:
