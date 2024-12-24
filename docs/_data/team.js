@@ -48,34 +48,34 @@ export const core = [
     ],
   },
   {
-    avatar: 'img/avatar/Wang-Chengyi.jpg',
+    avatar: './assets/img/team/avatar/Wang-Chengyi.jpg',
     name: 'Wang Chengyi',
     title: '24机械队长',
     desc: '三维建模设计、装配仿真',
   },
   {
-    avatar: 'img/avatar/Zhang-Qiuwen.jpg',
+    avatar: './assets/img/team/avatar/Zhang-Qiuwen.jpg',
     name: 'Zhang Qiuwen',
     title: '24运营策划',
   },
   {
-    avatar: 'img/avatar/Zhu-Wenyue.jpg',
+    avatar: './assets/img/team/avatar/Zhu-Wenyue.jpg',
     name: 'Zhu Wenyue',
     title: '24运营宣传',
   },
   {
-    avatar: 'img/avatar/Liu-Chengxi.jpg',
+    avatar: './assets/img/team/avatar/Liu-Chengxi.jpg',
     name: 'Liu Chengxi',
     title: '24运营财务',
   },
   {
-    avatar: 'img/avatar/Xiao-Shuiqing.jpg',
+    avatar: './assets/img/team/avatar/Xiao-Shuiqing.jpg',
     name: 'Xiao Shuiqing',
     title: '核心成员',
     desc: '三维建模设计、修图剪辑',
   },
   {
-    avatar: 'img/avatar/Zheng-Zeying.jpg',
+    avatar: './assets/img/team/avatar/Zheng-Zeying.jpg',
     name: 'Zheng Zeying',
     title: '核心成员',
     desc: '三维建模设计',
@@ -90,10 +90,13 @@ export const core = [
     ],
   },
   {
-    avatar: 'img/avatar/Zhong-Jun.jpg',
-    name: 'Zhong Jun',
+    avatar: 'https://github.com/Ryker-Zhong.png',
+    name: 'Ryker Zhong',
     title: '核心成员',
     desc: '单片机开发',
+    links: [
+      { icon: 'github', link: 'https://github.com/Ryker-Zhong' },
+    ],
   },
 ]
 
