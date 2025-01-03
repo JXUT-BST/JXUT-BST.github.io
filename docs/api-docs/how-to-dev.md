@@ -4,9 +4,9 @@ order: 1
 ---
 # 蓝色技术工作室官网开发文档
 
-::: warning 注意
-🚧文档正在建设中~
-:::
+> [!WARNING] 注意
+> 🚧文档正在建设中~
+
 
 ## 简介
 
@@ -37,19 +37,28 @@ order: 1
 
 在开始项目开发之前，需要确保本地开发环境的工具和依赖已正确安装。以下是基础环境搭建的步骤：
 
-- **安装 Node.js 和 pnpm**：Node.js 是一个 JavaScript 运行环境，pnpm 是一个高效的包管理工具，能够加快依赖安装速度并减少磁盘空间的占用。可以通过以下步骤安装：
+- **安装 Node.js 和 pnpm**：
+  ::: details 查看详情
+  Node.js 是一个 JavaScript 运行环境，pnpm 是一个高效的包管理工具，能够加快依赖安装速度并减少磁盘空间的占用。可以通过以下步骤安装：
   1. 访问 [Node.js 官网](https://nodejs.org/)，下载并安装最新的稳定版本。
   2. 安装完成后，通过命令行输入 `node -v` 和 `npm -v` 确保 Node.js 和 npm 已成功安装。
   3. 安装 pnpm，执行命令：`npm install -g pnpm`。
+  :::
 
-- **安装 Git**：Git 是版本控制工具，用于管理源代码的更改历史。确保已安装 Git 并配置好用户信息：
+- **安装 Git**：
+  ::: details 查看详情
+  Git 是版本控制工具，用于管理源代码的更改历史。确保已安装 Git 并配置好用户信息：
   1. 访问 [Git 官网](https://git-scm.com/)，下载并安装适合您操作系统的 Git 版本。
   2. 安装完成后，在命令行中输入 `git --version` 检查 Git 是否已正确安装。
   3. 配置 Git 用户信息：执行 `git config --global user.name "Your Name"` 和 `git config --global user.email "your.email@example.com"`。
+  :::
 
-- **安装 Visual Studio Code**：Visual Studio Code (VS Code) 是一款轻量级、功能强大的源代码编辑器，适合前端开发。可以通过以下步骤安装：
+- **安装 Visual Studio Code**：
+  ::: details 查看详情
+  Visual Studio Code (VS Code) 是一款轻量级、功能强大的源代码编辑器，适合前端开发。可以通过以下步骤安装：
   1. 访问 [VS Code 官网](https://code.visualstudio.com/)，下载并安装最新版的 Visual Studio Code。
   2. 安装完毕后，建议安装一些常用插件，如 Prettier、ESLint 和 git-commit-plugin，提升开发体验。
+  :::
 
 ### 初始化项目
 
@@ -62,9 +71,9 @@ order: 1
 ```shell
 git clone https://github.com/JXUT-BST/JXUT-BST.github.io.git
 ```
-::: warning 建议 
-为了更好地进行开发和贡献，建议先在 GitHub 上 🔱 [Fork](https://github.com/JXUT-BST/JXUT-BST.github.io/fork) 该项目到个人账户。可以在自己的仓库中完成开发和验证后，再向源仓库提交 Pull Request（[PR](https://github.com/JXUT-BST/JXUT-BST.github.io/pulls)）进行贡献。 
-:::
+> [!WARNING] 建议 
+为了更好地进行开发和贡献，建议先在 GitHub 上 🔱 [Fork](https://github.com/JXUT-BST/JXUT-BST.github.io/fork) 该项目到个人账户。可以在自己的仓库中完成开发和验证后，再向源仓库提交 Pull Request>>（[PR](https://github.com/JXUT-BST/JXUT-BST.github.io/pulls)）进行贡献。 
+>
 
 #### 安装项目依赖包
 
@@ -96,8 +105,25 @@ pnpm run docs:dev
 
 ### 调试与测试
 
-- 调试工具
-- 单元测试
+在开发过程中，还可以通过以下命令来构建和预览项目，进行调试和测试：
+
+- 构建项目：生成静态文件。
+```shell
+pnpm run docs:build
+```
+
+- 预览构建文件：预览已构建的静态文件。
+```shell
+pnpm run docs:preview
+```
+
+- 构建并预览：一键构建并预览。
+```shell
+pnpm run docs:test
+```
+
+> [!TIP]  提示
+> 命令的具体含义和配置可以查看 `package.json`
 
 ## 部署与维护
 
