@@ -1,5 +1,9 @@
 # JXUT-BST-IO-VitePress
- 使用VitePress构建的蓝色技术工作室官网
+ 使用 VitePress 构建的蓝色技术工作室官网
+
+## 开发&贡献指南
+
+请参阅 [开发文档](docs\api-docs\how-to-dev.md) 或者 [在线阅读](https://lansejishu.com/api-docs/how-to-dev)
 
 ## 文件结构
 ```
@@ -14,16 +18,16 @@
 │   │   └── index.md          # 关于我们页面内容
 │   ├── projects/             # 项目展示页面目录
 │   │   ├── index.md          # 项目列表页
-│   │   └── project-1.md      # 项目1详情页
-│   │   └── project-2.md      # 项目2详情页
+│   │   └── project-1.md      # 项目 1 详情页
+│   │   └── project-2.md      # 项目 2 详情页
 │   ├── events/               # 活动与新闻页面目录
 │   │   ├── index.md          # 活动列表页
-│   │   └── event-1.md        # 活动1详情页
-│   │   └── event-2.md        # 活动2详情页
+│   │   └── event-1.md        # 活动 1 详情页
+│   │   └── event-2.md        # 活动 2 详情页
 │   ├── resources/            # 资源与教程页面目录
 │   │   ├── index.md          # 资源列表页
-│   │   └── tutorial-1.md     # 教程1详情页
-│   │   └── tutorial-2.md     # 教程2详情页
+│   │   └── tutorial-1.md     # 教程 1 详情页
+│   │   └── tutorial-2.md     # 教程 2 详情页
 │   ├── contact/              # 联系我们页面目录
 │   │   └── join-us.md        # 加入我们页面内容
 │   └── partners/             # 合作伙伴页面目录

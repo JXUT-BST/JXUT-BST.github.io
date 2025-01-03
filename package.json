@@ -2,11 +2,11 @@
   "type": "module",
   "devDependencies": {
     "@chunge16/vitepress-blogs-theme": "^0.2.4",
-    "@nolebase/markdown-it-unlazy-img": "^2.11.1",
-    "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.11.1",
-    "@nolebase/vitepress-plugin-git-changelog": "^2.11.1",
-    "@nolebase/vitepress-plugin-thumbnail-hash": "^2.11.1",
-    "vite": "^6.0.4",
+    "@nolebase/markdown-it-unlazy-img": "^2.12.0",
+    "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.12.0",
+    "@nolebase/vitepress-plugin-git-changelog": "^2.12.0",
+    "@nolebase/vitepress-plugin-thumbnail-hash": "^2.12.0",
+    "vite": "^6.0.7",
     "vitepress": "^1.5.0",
     "vitepress-i18n": "^1.3.1",
     "vitepress-plugin-comment-with-giscus": "^1.1.15",
@@ -20,6 +20,6 @@
     "docs:test": "vitepress build docs && vitepress preview docs"
   },
   "dependencies": {
-    "@theojs/lumen": "^5.0.2"
+    "@theojs/lumen": "^5.2.1"
   }
 }

@@ -108,8 +108,8 @@ const vitePressConfig: UserConfig = {
     },
   },
   lang: 'zh-CN',
-  title: "JXUT-BST-IO-VitePress",
-  description: "A VitePress Site",
+  title: "JXUT-BST-IO",
+  description: "蓝色技术工作室官网",
   head: [["link", { rel: "icon", href: "/bst-logo.svg" }]],
   lastUpdated: true,
   cleanUrls: true,  // 开启后网址后缀无'html'
