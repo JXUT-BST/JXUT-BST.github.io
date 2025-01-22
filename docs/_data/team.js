@@ -39,12 +39,12 @@ export const core = [
     ],
   },
   {
-    avatar: 'https://www.github.com/Averyjhy.png',
-    name: 'Averyjhy',
+    avatar: 'https://github.com/Rain-m1st.png',
+    name: 'Rain-m1st',
     title: '24会长、24软件队长',
     desc: 'C/C++算法、前端开发',
     links: [
-      { icon: 'github', link: 'https://github.com/Averyjhy' },
+      { icon: 'github', link: 'https://github.com/Rain-m1st' },
     ],
   },
   {
