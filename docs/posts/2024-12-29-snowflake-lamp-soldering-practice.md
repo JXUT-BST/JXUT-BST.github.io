@@ -20,31 +20,31 @@ head:
 
 本次实践课通过锡焊技术的学习，带领大家探索电子电路的奥秘，为进一步学习和创新打下基础。
 
-![](../assets/img/posts/2024-11-29-snowflake-lamp-soldering-practice/AoDDbM82ZoOYugxwoibcxojxnNb.jpg)
+![](assets/2024-12-29-snowflake-lamp-soldering-practice/IMG-20250222145441077.webp)
 
 锡焊是一种广泛应用于电子制造中的基础技术，它通过熔化锡焊材料将电子元件固定在电路板上，实现电子电路的连接和稳定。
 
-![](../assets/img/posts/2024-11-29-snowflake-lamp-soldering-practice/Zd3kb0SDKolwrsxeTKfcc0bunnc.jpg)
+![](assets/2024-12-29-snowflake-lamp-soldering-practice/IMG-20250222145441140.webp)
 
 电路板则是现代电子产品的核心组件，为各种元件提供连接和支撑，是将创意转化为实际功能的关键平台。
 
-![](../assets/img/posts/2024-11-29-snowflake-lamp-soldering-practice/M99Rbmnk9ol9zaxlCGZcoAypnKg.jpg)
+![](assets/2024-12-29-snowflake-lamp-soldering-practice/IMG-20250222145441210.webp)
 
-![](../assets/img/posts/2024-11-29-snowflake-lamp-soldering-practice/IIx8bWuCGo1eOsxxZxQchZBLnRf.jpg)
+![](assets/2024-12-29-snowflake-lamp-soldering-practice/IMG-20250222145441281.webp)
 
-![](../assets/img/posts/2024-11-29-snowflake-lamp-soldering-practice/V1PwbxmCuoFAXGxCSiEc48QgnfV.jpg)
+![](assets/2024-12-29-snowflake-lamp-soldering-practice/IMG-20250222145441341.webp)
 
 每一盏雪花灯的诞生，都是同学们实践力与耐心的体现，亲手制作的雪花灯也成为了大家冬日美好回忆的象征。
 
-![](../assets/img/posts/2024-11-29-snowflake-lamp-soldering-practice/DU9ebsS0MoaSQDxz0k5cC8jXn7b.jpg)
+![](assets/2024-12-29-snowflake-lamp-soldering-practice/IMG-20250222145441394.webp)
 
 活动接近尾声时，各小组分别展示了他们精心制作的雪花灯。现场的氛围温暖而热烈，大家不仅收获了精美的作品，更体验到了动手实践的乐趣与成就感。
 
 成果展示：
 
-![](../assets/img/posts/2024-11-29-snowflake-lamp-soldering-practice/KVPzbzclqoyeLSxnogdcs75cnCn.jpg)
+![](assets/2024-12-29-snowflake-lamp-soldering-practice/IMG-20250222145441450.webp)
 
-![](../assets/img/posts/2024-11-29-snowflake-lamp-soldering-practice/Tx7TbfPLEon9RIxD35zcYUfwnNh.jpg)
+![](assets/2024-12-29-snowflake-lamp-soldering-practice/IMG-20250222145441517.webp)
 
 ## 评价——动手乐趣，满满收获
 
@@ -54,4 +54,4 @@ head:
 
 感谢所有参与者的热情投入，在这片冬日暖阳下，我们的每一次相遇都将成为温暖心田的回忆，期待在未来的活动中与大家再度相遇，共同创造更多难忘的记忆！
 
-![](../assets/img/posts/2024-11-29-snowflake-lamp-soldering-practice/ARW6b8A6JozjF1xARKccEADcnmh.jpeg)
+![](assets/2024-12-29-snowflake-lamp-soldering-practice/IMG-20250222145441582.webp)
