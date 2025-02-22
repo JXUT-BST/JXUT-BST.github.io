@@ -15,6 +15,7 @@ import {
 } from '@nolebase/vitepress-plugin-thumbnail-hash/vite'
 
 import { UnlazyImages } from '@nolebase/markdown-it-unlazy-img'
+import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links'
 
 // @ts-ignore
 import socialIcons from './theme/support/socialIcons'
@@ -124,6 +125,7 @@ const vitePressConfig: UserConfig = {
       md.use(UnlazyImages(), {
         imgElementTag: 'NolebaseUnlazyImg',
       })
+      md.use(BiDirectionalLinks())
     },
   },
 

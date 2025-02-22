@@ -2,6 +2,7 @@
   "type": "module",
   "devDependencies": {
     "@chunge16/vitepress-blogs-theme": "^0.2.4",
+    "@nolebase/markdown-it-bi-directional-links": "^2.14.0",
     "@nolebase/markdown-it-unlazy-img": "^2.14.0",
     "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.14.0",
     "@nolebase/vitepress-plugin-git-changelog": "^2.14.0",
