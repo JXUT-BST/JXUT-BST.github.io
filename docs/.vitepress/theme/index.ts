@@ -38,18 +38,18 @@ export default {
       // 为较宽的屏幕的导航栏添加阅读增强菜单
       'nav-bar-content-after': () => h(NolebaseEnhancedReadabilitiesMenu),
       // 为较窄的屏幕（通常是小于 iPad Mini）添加阅读增强菜单
-      'nav-screen-content-after': () => h(NolebaseEnhancedReadabilitiesScreenMenu), 
+      'nav-screen-content-after': () => h(NolebaseEnhancedReadabilitiesScreenMenu),
     })
   },
   enhanceApp({ app, router, siteData }) {
     // 注册全局组件
     app.component('Footer', Footer)
     app.component('Home', HomeUnderline)
-    app.component('NolebaseUnlazyImg', NolebaseUnlazyImg) 
+    app.component('NolebaseUnlazyImg', NolebaseUnlazyImg)
     app.use(NolebaseGitChangelogPlugin, {
       // https://nolebase-integrations.ayaka.io/pages/zh-CN/integrations/vitepress-plugin-git-changelog/configure-ui#%E9%85%8D%E7%BD%AE%E9%80%89%E9%A1%B9
       // 把选项填写在这里吧...
-    }) 
+    })
   },
   setup() {
     // Get frontmatter and route
