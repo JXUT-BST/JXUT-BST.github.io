@@ -1,4 +1,5 @@
 [
   "attachment-management",
-  "image-converter"
+  "image-converter",
+  "obsidian-linter"
 ]
