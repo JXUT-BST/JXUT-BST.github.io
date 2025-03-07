@@ -210,7 +210,7 @@
   },
   "resizeCursorLocation": "none",
   "dropPasteCursorLocation": "back",
-  "neverProcessFilenames": "",
+  "neverProcessFilenames": "*.gif",
   "modalBehavior": "never",
   "ProcessCurrentNoteconvertTo": "webp",
   "ProcessCurrentNotequality": 0.75,
