@@ -11,9 +11,13 @@
     {
       "type": "CURRENT",
       "name": "Same folder as current note"
+    },
+    {
+      "name": "Custom",
+      "type": "SUBFOLDER"
     }
   ],
-  "selectedFolderPreset": "Default (Obsidian setting)",
+  "selectedFolderPreset": "Custom",
   "filenamePresets": [
     {
       "name": "Keep original name",
@@ -46,7 +50,7 @@
     "folder": false,
     "filename": false
   },
-  "subfolderTemplate": "",
+  "subfolderTemplate": "{notename}/",
   "conversionPresets": [
     {
       "name": "None",
@@ -114,7 +118,7 @@
       "resizePreset": "Default (No Resize)"
     }
   ],
-  "selectedGlobalPreset": "",
+  "selectedGlobalPreset": "WebP 75",
   "linkFormatSettings": {
     "linkFormatPresets": [
       {
@@ -300,7 +304,7 @@
   },
   "isImageAlignmentEnabled": true,
   "imageAlignment_cacheCleanupInterval": 3600000,
-  "imageAlignment_cacheLocation": "plugin",
+  "imageAlignment_cacheLocation": ".obsidian",
   "isDragResizeEnabled": true,
   "isScrollResizeEnabled": true,
   "isResizeInReadingModeEnabled": false,
