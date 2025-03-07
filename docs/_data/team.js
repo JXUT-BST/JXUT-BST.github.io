@@ -48,12 +48,6 @@ export const core = [
     ],
   },
   {
-    avatar: 'img/avatar/Wang-Chengyi.jpg',
-    name: 'Wang Chengyi',
-    title: '24机械队长',
-    desc: '三维建模设计、装配仿真',
-  },
-  {
     avatar: 'img/avatar/Zhang-Qiuwen.jpg',
     name: 'Zhang Qiuwen',
     title: '24运营策划',
@@ -73,12 +67,6 @@ export const core = [
     name: 'Xiao Shuiqing',
     title: '核心成员',
     desc: '三维建模设计、修图剪辑',
-  },
-  {
-    avatar: 'img/avatar/Zheng-Zeying.jpg',
-    name: 'Zheng Zeying',
-    title: '核心成员',
-    desc: '三维建模设计',
   },
   {
     avatar: 'https://github.com/Serendipityxk.png',
