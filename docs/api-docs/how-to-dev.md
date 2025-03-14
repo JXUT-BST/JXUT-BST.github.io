@@ -136,8 +136,15 @@ pnpm run docs:test
 
 ### 维护策略
 
-- 监控
-- 故障排除
+#### Obsidian 工作流
+
+使用 [Obsidian - Sharpen your thinking](https://obsidian.md/) 可以很方便的编辑 Markdown 文档。已经在项目中配置好了 Obsidian 的基础设置和插件。使用 Obsidian `打开本地仓库 - 将一个本地文件夹作为仓库在Obsidian中打开。`，选择代码仓库的 `docs` 文件夹。
+
+已配置插件：
+
+- Attachment Management：附件管理，将文档附件按规则添加到对应文件夹，并可跟随文档的移动自动移动。
+- Image Converter：将粘贴的图片保存到 `assets/{notename}/` 文件夹，并自动压缩转换为 `webp` 格式。
+- Linter：格式化文档。
 
 ## 工具与资源
 
