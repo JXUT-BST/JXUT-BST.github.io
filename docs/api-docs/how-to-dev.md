@@ -2,11 +2,11 @@
 title: 开发文档
 order: 1
 ---
+
 # 蓝色技术工作室官网开发文档
 
 > [!WARNING] 注意
 > 🚧文档正在建设中~
-
 
 ## 简介
 
@@ -71,9 +71,9 @@ order: 1
 ```shell
 git clone https://github.com/JXUT-BST/JXUT-BST.github.io.git
 ```
+
 > [!WARNING] 建议 
 为了更好地进行开发和贡献，建议先在 GitHub 上 🔱 [Fork](https://github.com/JXUT-BST/JXUT-BST.github.io/fork) 该项目到个人账户。可以在自己的仓库中完成开发和验证后，再向源仓库提交 Pull Request>>（[PR](https://github.com/JXUT-BST/JXUT-BST.github.io/pulls)）进行贡献。 
->
 
 #### 安装项目依赖包
 
@@ -108,28 +108,31 @@ pnpm run docs:dev
 在开发过程中，还可以通过以下命令来构建和预览项目，进行调试和测试：
 
 - 构建项目：生成静态文件。
+
 ```shell
 pnpm run docs:build
 ```
 
 - 预览构建文件：预览已构建的静态文件。
+
 ```shell
 pnpm run docs:preview
 ```
 
 - 构建并预览：一键构建并预览。
+
 ```shell
 pnpm run docs:test
 ```
 
-> [!TIP]  提示
+> [!TIP] 提示
 > 命令的具体含义和配置可以查看 `package.json`
 
 ## 部署与维护
 
 ### 部署流程
 
-目前官网使用 Github Page 托管部署，使用自定义域名`www.lansejishu.com`。如果需要对网站内容进行更新，推送代码到仓库 `main` 分支即可，Github Action 会对 `main` 分支内容自动进行构建部署。
+目前官网使用 Github Page 托管部署，使用自定义域名 `www.lansejishu.com`。如果需要对网站内容进行更新，推送代码到仓库 `main` 分支即可，Github Action 会对 `main` 分支内容自动进行构建部署。
 
 ### 维护策略
 
