@@ -50,7 +50,7 @@
     "folder": false,
     "filename": false
   },
-  "subfolderTemplate": "{notename}/",
+  "subfolderTemplate": "assets/{notename}/",
   "conversionPresets": [
     {
       "name": "None",
