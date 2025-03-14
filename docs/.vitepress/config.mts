@@ -74,6 +74,11 @@ const vitePressConfig: UserConfig = {
             name: 'Alaye-Dong',
             username: 'Alaye-Dong',
           },
+          {
+            name: 'Rain-m1st',
+            username: 'Rain-m1st',
+            mapByNameAliases: ['Averyjhy'],
+          },
         ],
       }),
       // @ts-ignore
@@ -153,7 +158,7 @@ const vitePressConfig: UserConfig = {
       {
         text: '相关链接',
         items: [
-          { text: 'API Docs', link: '/api-docs/how-to-dev' },
+          { text: '开发文档', link: '/api-docs/how-to-dev' },
           { text: 'AI助手🤖', link: '/ai' },
           { text: '知识库', link: 'https://eab6f7z1wy1.feishu.cn/wiki/NOW6w8DUriguJskA5p0cKUjenmc?from=from_copylink' },
         ]
