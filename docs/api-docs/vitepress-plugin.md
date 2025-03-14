@@ -8,7 +8,7 @@
 
 ### 常用配置项
 
-- `useFolderLinkFromIndexFile`:默认为 `false`，表示可达index.md文件页面
+- `useFolderLinkFromIndexFile`: 默认为 `false`，表示可达 index.md 文件页面
 
 ## VitePress i18n
 
@@ -17,6 +17,7 @@
 [Github仓库](https://github.com/jooy2/vitepress-i18n)
 
 ## Lumen
+
 Enhanced Theme
 
 ✨ 集成 Vue 功能组件和主题美化的 VitePress 插件
@@ -32,6 +33,7 @@ Enhanced Theme
 [配置文档](https://nolebase-integrations.ayaka.io/pages/zh-CN/integrations/vitepress-plugin-git-changelog/)
 
 ### 配置示例
+
 ```ts
  mapAuthors: [
         {
@@ -64,5 +66,5 @@ Enhanced Theme
           username: 'damokeris', 
           mapByEmailAliases: ['xxxxx@qq.com'] 
         },
-      ],
+],
 ```
