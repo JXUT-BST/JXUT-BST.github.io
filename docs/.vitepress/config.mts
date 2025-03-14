@@ -74,6 +74,11 @@ const vitePressConfig: UserConfig = {
             name: 'Alaye-Dong',
             username: 'Alaye-Dong',
           },
+          {
+            name: 'Rain-m1st',
+            username: 'Rain-m1st',
+            mapByNameAliases: ['Averyjhy'],
+          },
         ],
       }),
       // @ts-ignore
