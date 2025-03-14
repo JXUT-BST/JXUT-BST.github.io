@@ -150,13 +150,14 @@ pnpm run docs:test
 
 ### 开发工具
 
-- 编辑器
-- 版本控制
-- 调试工具
+- 编辑器：VSCode、Obsidian
+- 版本控制：Git、Github Desktop
+- 调试工具：Vue.js devtools
 
 ### 学习资源
 
 - [VitePress 快速上手中文教程](https://vitepress.yiov.top/)
+- [Nólëbase 集成多元化的文档工程工具合集](https://nolebase-integrations.ayaka.io/pages/zh-CN/)
 
 ## 贡献指南
 
