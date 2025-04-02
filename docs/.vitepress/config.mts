@@ -163,6 +163,7 @@ const vitePressConfig: UserConfig = {
           { text: '知识库', link: 'https://eab6f7z1wy1.feishu.cn/wiki/NOW6w8DUriguJskA5p0cKUjenmc?from=from_copylink' },
         ]
       },
+      { text: '赞助🤗', link: '/sponsor' },
     ],
 
     socialLinks: [
