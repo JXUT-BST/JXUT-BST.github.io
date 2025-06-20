@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 import type { UserConfig } from 'vitepress';
 import { withSidebar } from 'vitepress-sidebar';
 
-import VitePressI18n from 'vitepress-i18n';
 import VitePressI18nOptions from 'vitepress-i18n';
+import { withI18n } from 'vitepress-i18n';
 
 import {
   GitChangelog,
@@ -54,6 +54,7 @@ const vitePressSidebarOptions = [
 
 const vitePressI18nConfig: VitePressI18nOptions = {
   locales: ['zhHans'],
+  // FIXME 搜索框的国际化中文不生效
   searchProvider: 'local',
 };
 
@@ -188,5 +189,5 @@ const vitePressConfig: UserConfig = {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig(
-  withSidebar(VitePressI18n.withI18n(vitePressConfig, vitePressI18nConfig), vitePressSidebarOptions),
+  withSidebar(withI18n(vitePressConfig, vitePressI18nConfig), vitePressSidebarOptions),
 );
