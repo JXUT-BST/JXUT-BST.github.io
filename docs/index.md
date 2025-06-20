@@ -20,7 +20,7 @@ hero:
 
     - theme: brand
       text: 加入我们
-      link: /contact/join-us
+      link: /about/join/join-us
 
     - theme: alt
       text: AI助手🤖

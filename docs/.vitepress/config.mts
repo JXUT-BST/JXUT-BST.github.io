@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 import type { UserConfig } from 'vitepress';
 import { withSidebar } from 'vitepress-sidebar';
+import path from 'path';
 
 import VitePressI18nOptions from 'vitepress-i18n';
 import { withI18n } from 'vitepress-i18n';
@@ -60,6 +61,12 @@ const vitePressI18nConfig: VitePressI18nOptions = {
 
 const vitePressConfig: UserConfig = {
   vite: {
+    resolve: {
+      alias: {
+        '@': path.resolve(__dirname, '../../../'),
+        '@docs': path.resolve(__dirname, '../../'),
+      },
+    },
     plugins: [
       // FIXME VSCode报错异常，实际并不会影响运行，所以暂时使用 @ts-ignore 强制忽视报错
       // @ts-ignore
@@ -91,14 +98,14 @@ const vitePressConfig: UserConfig = {
       exclude: [
         '@nolebase/vitepress-plugin-enhanced-readabilities/client',
         'vitepress',
-        '@nolebase/ui',
+        '@nolebase-ui',
       ],
     },
     ssr: {
       noExternal: [
         // 如果还有别的依赖需要添加的话，并排填写和配置到这里即可
         '@nolebase/vitepress-plugin-enhanced-readabilities',
-        '@nolebase/ui',
+        '@nolebase-ui',
       ],
     },
   },
@@ -152,8 +159,9 @@ const vitePressConfig: UserConfig = {
         text: '关于我们',
         items: [
           { text: '工作室', link: '/about/about-bst' },
-          { text: '团队成员', link: '/team' },
-          { text: '加入我们', link: '/contact/join-us' },
+          { text: '团队成员', link: '/about/team' },
+          { text: '加入我们', link: '/about/join/join-us' },
+          { text: '赞助信息', link: '/about/sponsor' },
         ]
       },
       {
@@ -164,7 +172,6 @@ const vitePressConfig: UserConfig = {
           { text: '知识库', link: 'https://eab6f7z1wy1.feishu.cn/wiki/NOW6w8DUriguJskA5p0cKUjenmc?from=from_copylink' },
         ]
       },
-      { text: '赞助🤗', link: '/sponsor' },
     ],
 
     socialLinks: [

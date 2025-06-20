@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Meet the Team
+title: 认识我们的团队
 description: 蓝色技术工作室是一个大团队，下面是对一些团队成员的介绍。
 gitChangelog: false
 ---

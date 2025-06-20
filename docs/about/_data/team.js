@@ -1,5 +1,5 @@
 // 实现参考Vite团队页
-import socialIcons from "../.vitepress/theme/support/socialIcons.ts";
+import socialIcons from "../../.vitepress/theme/support/socialIcons.ts";
 
 export const bst = [
   {
@@ -48,22 +48,22 @@ export const core = [
     ],
   },
   {
-    avatar: 'img/avatar/Zhang-Qiuwen.jpg',
+    avatar: './assets/team/avatar/Zhang-Qiuwen.jpg',
     name: 'Zhang Qiuwen',
     title: '24运营策划',
   },
   {
-    avatar: 'img/avatar/Zhu-Wenyue.jpg',
+    avatar: './assets/team/avatar/Zhu-Wenyue.jpg',
     name: 'Zhu Wenyue',
     title: '24运营宣传',
   },
   {
-    avatar: 'img/avatar/Liu-Chengxi.jpg',
+    avatar: './assets/team/avatar/Liu-Chengxi.jpg',
     name: 'Liu Chengxi',
     title: '24运营财务',
   },
   {
-    avatar: 'img/avatar/Xiao-Shuiqing.jpg',
+    avatar: './assets/team/avatar/Xiao-Shuiqing.jpg',
     name: 'Xiao Shuiqing',
     title: '核心成员',
     desc: '三维建模设计、修图剪辑',
