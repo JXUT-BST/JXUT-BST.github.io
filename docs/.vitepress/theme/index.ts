@@ -22,7 +22,7 @@ import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
 
 // import '@theojs/lumen/doc-blocks'
 import '@theojs/lumen/icon' /* 图标 */
-import { HomeUnderline } from '@theojs/lumen'
+import { Underline } from '@theojs/lumen'
 
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import { useData, useRoute } from 'vitepress';
@@ -44,7 +44,7 @@ export default {
   enhanceApp({ app, router, siteData }) {
     // 注册全局组件
     app.component('Footer', Footer)
-    app.component('Home', HomeUnderline)
+    app.component('Home', Underline)
     app.component('NolebaseUnlazyImg', NolebaseUnlazyImg)
     app.use(NolebaseGitChangelogPlugin, {
       // https://nolebase-integrations.ayaka.io/pages/zh-CN/integrations/vitepress-plugin-git-changelog/configure-ui#%E9%85%8D%E7%BD%AE%E9%80%89%E9%A1%B9

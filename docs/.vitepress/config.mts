@@ -1,7 +1,6 @@
 import { defineConfig } from 'vitepress'
 import type { UserConfig } from 'vitepress';
 import { withSidebar } from 'vitepress-sidebar';
-import path from 'path';
 
 import VitePressI18nOptions from 'vitepress-i18n';
 import { withI18n } from 'vitepress-i18n';
@@ -63,8 +62,6 @@ const vitePressConfig: UserConfig = {
   vite: {
     resolve: {
       alias: {
-        '@': path.resolve(__dirname, '../../../'),
-        '@docs': path.resolve(__dirname, '../../'),
       },
     },
     plugins: [
