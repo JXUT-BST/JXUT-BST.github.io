@@ -54,7 +54,6 @@ const vitePressSidebarOptions = [
 
 const vitePressI18nConfig: VitePressI18nOptions = {
   locales: ['zhHans'],
-  // FIXME 搜索框的国际化中文不生效
   searchProvider: 'local',
 };
 
@@ -144,9 +143,11 @@ const vitePressConfig: UserConfig = {
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: { src: '/bst-logo.svg', width: 24, height: 24 },
-    search: {
-      provider: 'local',
-    },
+
+    // NOTE: 这里配置会和i18n插件冲突，导致搜索框i18n失效
+    // search: {
+    //   provider: 'local',
+    // },
 
     nav: [
       { text: '首页', link: '/' },
