@@ -19,12 +19,8 @@ hero:
       link: /posts
 
     - theme: brand
-      text: 加入我们
-      link: /about/join/join-us
-
-    - theme: alt
-      text: AI助手🤖
-      link: /ai
+      text: 加入我们👋
+      link: /about/join-us
 
 features:
   - icon: 🛠️

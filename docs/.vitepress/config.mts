@@ -123,7 +123,6 @@ const vitePressConfig: UserConfig = {
   description: "蓝色技术工作室官网",
   head: [["link", { rel: "icon", href: "/bst-logo.svg" }]],
   lastUpdated: true,
-  cleanUrls: true,  // 开启后网址后缀无'html'
   markdown: {
     image: {
       // 开启图片懒加载
@@ -156,9 +155,9 @@ const vitePressConfig: UserConfig = {
         text: '关于我们',
         items: [
           { text: '工作室', link: '/about/about-bst' },
-          { text: '团队成员', link: '/about/team' },
-          { text: '加入我们', link: '/about/join/join-us' },
-          { text: '赞助信息', link: '/about/sponsor' },
+          { text: '团队成员', link: '/team' },
+          { text: '加入我们👋', link: '/about/join-us' },
+          { text: '赞助信息', link: '/sponsor' },
         ]
       },
       {
