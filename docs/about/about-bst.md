@@ -14,11 +14,8 @@
 
 [奖项查询服务](https://eab6f7z1wy1.feishu.cn/share/base/query/shrcnlUAYhnx0RIfV5lieoTIJCe)
 
-::: tip 提示
-
-没有找到奖项？可能缺失未被收集，欢迎补全，你可以提交 [issues](https://github.com/JXUT-BST/JXUT-BST.github.io/issues)。
-
-:::
+> [!TIP] 提示
+>没有找到奖项？可能缺失未被收集，欢迎补全，你可以提交 [issues](https://github.com/JXUT-BST/JXUT-BST.github.io/issues)。
 
 ## 试试我们的 AI 助手🤖
 
