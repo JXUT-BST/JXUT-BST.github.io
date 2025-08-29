@@ -11,7 +11,7 @@ hero:
     alt: BST-Logo
   actions:
     - theme: brand
-      text: 关于我们
+      text: 了解更多
       link: /about/about-bst
 
     - theme: alt
