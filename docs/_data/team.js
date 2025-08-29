@@ -8,7 +8,7 @@ export const bst = [
 		title: "蓝色技术工作室",
 		links: [
 			{ icon: "github", link: "https://github.com/JXUT-BST" },
-			{ icon: { svg: socialIcons.qq }, link: "https://qm.qq.com/q/HvMQU9y5a0" },
+			{ icon: { svg: socialIcons.qq }, link: "https://qm.qq.com/q/YDvNeYEt0c" },
 			{
 				icon: { svg: socialIcons.wechat },
 				link: "https://mp.weixin.qq.com/s/jVg6DWfW3Tuc8HUj5zXkZQ",

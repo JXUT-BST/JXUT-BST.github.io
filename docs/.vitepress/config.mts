@@ -172,7 +172,7 @@ const vitePressConfig: UserConfig = {
 				icon: {
 					svg: socialIcons.qq,
 				},
-				link: "https://qm.qq.com/q/HvMQU9y5a0",
+				link: "https://qm.qq.com/q/YDvNeYEt0c",
 				// 为无障碍添加一个自定义标签 (可选但推荐):
 				ariaLabel: "qq group link",
 			},

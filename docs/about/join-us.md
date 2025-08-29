@@ -13,7 +13,7 @@ import { bst } from '../_data/team'
 ## 联系方式
 
 - QQ群
-    [点击加入](https://qm.qq.com/q/HvMQU9y5a0)
+    [点击加入](https://qm.qq.com/q/YDvNeYEt0c)
 
 - 微信公众号
     ![wx_qrcode](assets/join-us/IMG-20250222145441017.png)
