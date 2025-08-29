@@ -1,6 +1,7 @@
 {
   "type": "module",
   "devDependencies": {
+    "@biomejs/biome": "2.2.2",
     "@chunge16/vitepress-blogs-theme": "^0.2.4",
     "@nolebase/markdown-it-bi-directional-links": "^2.18.2",
     "@nolebase/markdown-it-unlazy-img": "^2.18.2",
@@ -20,7 +21,9 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "docs:test": "vitepress build docs && vitepress preview docs",
-    "lint": "oxlint . --fix"
+    "oxlint": "oxlint . --fix",
+    "format": "biome format --write ./docs",
+    "lint": "biome check --write ./docs"
   },
   "dependencies": {
     "@theojs/lumen": "^6.4.4"
