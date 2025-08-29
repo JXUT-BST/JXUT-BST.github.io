@@ -23,7 +23,6 @@ import { Underline } from "@theojs/lumen";
 import { useData, useRoute } from "vitepress";
 import giscusTalk from "vitepress-plugin-comment-with-giscus";
 
-// @ts-expect-error
 import Footer from "./components/Footer.vue";
 
 export default {

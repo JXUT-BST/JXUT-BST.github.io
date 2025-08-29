@@ -11,7 +11,6 @@ import type VitePressI18nOptions from "vitepress-i18n";
 import { withI18n } from "vitepress-i18n";
 import { withSidebar } from "vitepress-sidebar";
 
-// @ts-expect-error
 import socialIcons from "./theme/support/socialIcons";
 
 // https://vitepress-sidebar.cdget.com/zhHans/introduction
