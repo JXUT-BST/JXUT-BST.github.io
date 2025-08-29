@@ -1,13 +1,12 @@
 <!-- 备案展示实现方式参考 https://github.com/Charles7c/charles7c.github.io/blob/main/docs/.vitepress/theme/components/layout/Footer.vue -->
 <script setup lang="ts">
 interface footerConfigProps {
-    icpRecordCode: string // ICP备案号
-    publicSecurityRecordCode: string // 联网备案号
-    copyright: string // 版权信息
+	icpRecordCode: string; // ICP备案号
+	publicSecurityRecordCode: string; // 联网备案号
+	copyright: string; // 版权信息
 }
 
-const footerConfig = defineProps < footerConfigProps > ();
-
+const footerConfig = defineProps<footerConfigProps>();
 </script>
 
 <template>
