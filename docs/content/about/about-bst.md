@@ -20,7 +20,7 @@
 ## 试试我们的 AI 助手🤖
 
 <script setup>
-import DifyEmbedding from '../.vitepress/theme/components/DifyEmbedding.vue'
+import DifyEmbedding from '../../.vitepress/theme/components/DifyEmbedding.vue'
 </script>
 
 > [!WARNING] 注意

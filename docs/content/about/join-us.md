@@ -5,7 +5,7 @@ import {
   VPTeamPageSection,
   VPTeamMembers
 } from 'vitepress/theme'
-import { bst } from '../_data/team'
+import { bst } from '../../_data/team'
 </script>
 
 # 加入我们
