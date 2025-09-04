@@ -20,6 +20,7 @@ import { bst } from '../../_data/team'
 
 ## 办公地址
 
-江西科技学院红绿蓝众创空间201蓝色技术工作室
+- 江西科技学院红绿蓝众创空间-201
+- 江西科技学院S5-301
 
 <VPTeamMembers :members="bst" />
