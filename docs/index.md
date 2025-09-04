@@ -16,7 +16,7 @@ hero:
 
     - theme: alt
       text: 活动推文
-      link: /posts
+      link: /pages/posts
 
     - theme: brand
       text: 加入我们👋

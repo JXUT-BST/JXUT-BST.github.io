@@ -56,22 +56,22 @@ export const core = [
 		links: [{ icon: "github", link: "https://github.com/Rain-m1st" }],
 	},
 	{
-		avatar: "./assets/team/avatar/Zhang-Qiuwen.jpg",
+		avatar: "../assets/team/avatar/Zhang-Qiuwen.jpg",
 		name: "Zhang Qiuwen",
 		title: "24运营策划",
 	},
 	{
-		avatar: "./assets/team/avatar/Zhu-Wenyue.jpg",
+		avatar: "../assets/team/avatar/Zhu-Wenyue.jpg",
 		name: "Zhu Wenyue",
 		title: "24运营宣传",
 	},
 	{
-		avatar: "./assets/team/avatar/Liu-Chengxi.jpg",
+		avatar: "../assets/team/avatar/Liu-Chengxi.jpg",
 		name: "Liu Chengxi",
 		title: "24运营财务",
 	},
 	{
-		avatar: "./assets/team/avatar/Xiao-Shuiqing.jpg",
+		avatar: "../assets/team/avatar/Xiao-Shuiqing.jpg",
 		name: "Xiao Shuiqing",
 		title: "核心成员",
 		desc: "三维建模设计、修图剪辑",
