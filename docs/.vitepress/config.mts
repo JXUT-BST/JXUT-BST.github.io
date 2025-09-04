@@ -145,7 +145,7 @@ const vitePressConfig: UserConfig = {
 			{ text: "首页", link: "/" },
 			{ text: "活动推文", link: "/pages/posts" },
 			{
-				text: "了解更多",
+				text: "关于",
 				items: [
 					{ text: "工作室", link: "/content/about/about-bst" },
 					{ text: "团队成员", link: "/pages/team" },
