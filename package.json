@@ -23,8 +23,8 @@
     "preview": "vitepress preview",
     "test": "vitepress build && vitepress preview",
     "oxlint": "oxlint . --fix",
-    "format": "biome format --write ./docs",
-    "lint": "biome check --write ./docs"
+    "format": "biome format --write ./docs ./.vitepress",
+    "lint": "biome check --write ./docs ./.vitepress"
   },
   "dependencies": {
     "@theojs/lumen": "^6.4.4"

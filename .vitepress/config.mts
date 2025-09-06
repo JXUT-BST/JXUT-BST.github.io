@@ -1,3 +1,4 @@
+import { resolve } from "node:path";
 import { BiDirectionalLinks } from "@nolebase/markdown-it-bi-directional-links";
 import { UnlazyImages } from "@nolebase/markdown-it-unlazy-img";
 import {
@@ -10,9 +11,7 @@ import { defineConfig } from "vitepress";
 import type VitePressI18nOptions from "vitepress-i18n";
 import { withI18n } from "vitepress-i18n";
 import { withSidebar } from "vitepress-sidebar";
-
 import socialIcons from "./theme/support/socialIcons";
-import { resolve } from 'node:path';
 
 // https://vitepress-sidebar.cdget.com/zhHans/introduction
 const vitePressSidebarOptions = [
@@ -56,8 +55,8 @@ const vitePressConfig: UserConfig = {
 	vite: {
 		resolve: {
 			alias: {
-				'@docs': resolve(__dirname, '../docs')
-			}
+				"@docs": resolve(__dirname, "../docs"),
+			},
 		},
 		plugins: [
 			// FIXME VSCode报错异常，实际并不会影响运行，所以暂时使用 @ts-expect-error 强制忽视报错
