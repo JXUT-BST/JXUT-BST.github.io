@@ -20,9 +20,10 @@
 ## 试试我们的 AI 助手🤖
 
 <script setup>
-import DifyEmbedding from '../../.vitepress/theme/components/DifyEmbedding.vue'
+import DifyEmbedding from '@theme/components/DifyEmbedding.vue'
 </script>
 
 > [!WARNING] 注意
 > 🚧正在建设中~ 服务可能不可用
+
 <DifyEmbedding/>

@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "JXUT-BST-IO"
-  text: "蓝色技术工作室"
+  name: JXUT-BST-IO
+  text: 蓝色技术工作室
   tagline: 技致者可敬，创新者无畏
   image:
     src: /bst-logo.svg
@@ -40,7 +40,8 @@ features:
     details: 提供丰富的竞赛技术文档、工具及相关资源，帮助成员高效备赛。
 
 ---
-<Home />
+<HeroTextUnderline />
+<!-- Note: 以下为引用 about-bst.md 的第3行内容，请确保内容正常否则将出现隐式错误 -->
 <!-- @include: ./content/about/about-bst.md{3,3} -->
 
 <Footer :icpRecordCode="'赣ICP备19006787号-2'" :copyright="`Copyright © 2017-${new Date().getFullYear()} JXUT BST`" />

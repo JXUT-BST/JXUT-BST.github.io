@@ -5,7 +5,7 @@ gitChangelog: false
 ---
 
 <script setup>
-import DifyEmbedding from '../.vitepress/theme/components/DifyEmbedding.vue'
+import DifyEmbedding from '@theme/components/DifyEmbedding.vue'
 </script>
 
 > [!WARNING] 注意

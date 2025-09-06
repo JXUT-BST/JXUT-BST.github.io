@@ -5,7 +5,7 @@ outline: false
 ---
 
 <script setup>
-import BlogIndex from '../.vitepress/theme/components/BlogIndex.vue'
+import BlogIndex from '@theme/components/BlogIndex.vue'
 </script>
 
 # 活动推文
