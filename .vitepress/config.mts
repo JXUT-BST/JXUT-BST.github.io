@@ -12,6 +12,7 @@ import { withI18n } from "vitepress-i18n";
 import { withSidebar } from "vitepress-sidebar";
 
 import socialIcons from "./theme/support/socialIcons";
+import { resolve } from 'node:path';
 
 // https://vitepress-sidebar.cdget.com/zhHans/introduction
 const vitePressSidebarOptions = [
@@ -51,9 +52,12 @@ const vitePressI18nConfig: VitePressI18nOptions = {
 };
 
 const vitePressConfig: UserConfig = {
+	srcDir: "./docs",
 	vite: {
 		resolve: {
-			alias: {},
+			alias: {
+				'@docs': resolve(__dirname, '../docs')
+			}
 		},
 		plugins: [
 			// FIXME VSCode报错异常，实际并不会影响运行，所以暂时使用 @ts-expect-error 强制忽视报错

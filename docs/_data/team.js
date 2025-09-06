@@ -1,5 +1,5 @@
 // 实现参考Vite团队页
-import socialIcons from "../.vitepress/theme/support/socialIcons.ts";
+import socialIcons from "@theme/support/socialIcons.ts";
 
 export const bst = [
 	{

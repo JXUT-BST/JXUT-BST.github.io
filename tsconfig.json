@@ -2,11 +2,23 @@
     "compilerOptions": {
         "module": "ESNext",
         "moduleResolution": "Bundler",
+        "baseUrl": ".",
+        "paths": {
+            "@theme/*": [
+                ".vitepress/theme/*"
+            ],
+            "@docs/*":[
+                "docs/*"
+            ]
+        }
     },
     "include": [
         "**/.vitepress/**/*.ts",
         "**/.vitepress/**/*.mts",
-        "**/.vitepress/**/*.vue"
+        "**/.vitepress/**/*.vue",
+        "**/docs/**/*.ts",
+        "**/docs/**/*.mts",
+        "**/docs/**/*.vue"
     ],
     "exclude": [
         "node_modules"

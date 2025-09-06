@@ -1,6 +1,6 @@
 <!-- 实现方式参考Vite官网Blog页面 https://github.com/vitejs/vite/blob/main/docs/.vitepress/theme/components/BlogIndex.vue -->
 <script setup lang="ts">
-import { data as posts } from "../../../_data/blog.data";
+import { data as posts } from "@docs/_data/blog.data";
 
 function getDateTime(time: number) {
 	return new Date(time).toISOString();

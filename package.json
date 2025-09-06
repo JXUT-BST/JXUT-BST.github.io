@@ -8,6 +8,7 @@
     "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.18.2",
     "@nolebase/vitepress-plugin-git-changelog": "^2.18.2",
     "@nolebase/vitepress-plugin-thumbnail-hash": "^2.18.2",
+    "@types/node": "^24.3.1",
     "oxlint": "^1.14.0",
     "vite": "^6.3.5",
     "vitepress": "^1.6.4",
@@ -17,10 +18,10 @@
     "vue": "^3.5.21"
   },
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs",
-    "docs:test": "vitepress build docs && vitepress preview docs",
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "test": "vitepress build && vitepress preview",
     "oxlint": "oxlint . --fix",
     "format": "biome format --write ./docs",
     "lint": "biome check --write ./docs"

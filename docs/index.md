@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "JXUT-BST-IO"
-  text: "蓝色技术工作室"
+  name: JXUT-BST-IO
+  text: 蓝色技术工作室
   tagline: 技致者可敬，创新者无畏
   image:
     src: /bst-logo.svg
