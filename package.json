@@ -7,8 +7,8 @@
     "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.18.2",
     "@nolebase/vitepress-plugin-git-changelog": "^2.18.2",
     "@nolebase/vitepress-plugin-thumbnail-hash": "^2.18.2",
-    "@types/node": "^24.3.1",
-    "oxlint": "^1.14.0",
+    "@types/node": "^24.5.0",
+    "oxlint": "^1.15.0",
     "vite": "^6.3.6",
     "vitepress": "^1.6.4",
     "vitepress-i18n": "^1.3.4",
@@ -26,6 +26,8 @@
     "lint": "biome check --write ./docs ./.vitepress"
   },
   "dependencies": {
-    "@theojs/lumen": "^6.4.4"
+    "@tailwindcss/vite": "^4.1.13",
+    "@theojs/lumen": "^6.4.4",
+    "tailwindcss": "^4.1.13"
   }
 }
