@@ -7,19 +7,20 @@ interface Post {
 		time: number;
 		string: string;
 	};
+	excerpt: string | undefined;
 }
 
 declare const data: Post[];
 export { data };
 
 export default createContentLoader("content/posts/*.md", {
-	// excerpt: true,
+	excerpt: true,
 	transform(raw): Post[] {
 		return raw
-			.map(({ url, frontmatter }) => ({
-				title: frontmatter.head.find((e) => e[1].property === "og:title")[1]
-					.content,
+			.map(({ url, frontmatter, excerpt }) => ({
+				title: frontmatter.title,
 				url,
+				excerpt, // 渲染的摘录 HTML（MD中第一个 `---` 上面的内容）
 				date: formatDate(frontmatter.date),
 			}))
 			.sort((a, b) => b.date.time - a.date.time);
