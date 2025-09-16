@@ -9,7 +9,7 @@ head:
       content: website
   - - meta
     - property: og:title
-      content: 雪花灯锡焊技术实践课 #head-meta中的og:title项，才是在posts页面展示的标题，必须配置否则无法显示
+      content: 雪花灯锡焊技术实践课
 ---
 
 # 冬日入怀，雪花灯暖——锡焊技术实践课

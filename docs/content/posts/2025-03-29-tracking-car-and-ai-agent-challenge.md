@@ -1,5 +1,5 @@
 ---
-title: 循迹小车设计与实践
+title: AI智能体暨红外循迹小车比赛
 authors: ['朱文月','刘美含']
 date: 2025-03-29
 sidebar: false
