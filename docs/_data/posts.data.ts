@@ -20,7 +20,7 @@ export default createContentLoader("content/posts/*.md", {
 			.map(({ url, frontmatter, excerpt }) => ({
 				title: frontmatter.title,
 				url,
-				excerpt,
+				excerpt, // 渲染的摘录 HTML（MD中第一个 `---` 上面的内容）
 				date: formatDate(frontmatter.date),
 			}))
 			.sort((a, b) => b.date.time - a.date.time);

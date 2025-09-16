@@ -10,16 +10,17 @@ function getDateTime(time: number) {
 <template>
   <ul class="post-list">
     <li class="post-entry" v-for="post of posts">
-      <a :href="post.url">
-        <article>
-          <time :datetime="getDateTime(post.date.time)">{{
-            post.date.string
-            }}</time>
+      <article>
+        <a :href="post.url">
+          <time :datetime="getDateTime(post.date.time)">
+            {{ post.date.string }}
+          </time>
           <h2 class="title">
             {{ post.title }}
           </h2>
-        </article>
-      </a>
+          <div v-if="post.excerpt" v-html="post.excerpt"></div>
+        </a>
+      </article>
     </li>
   </ul>
 </template>
@@ -29,6 +30,7 @@ function getDateTime(time: number) {
   list-style-type: none;
   padding: 0;
 }
+
 .post-entry {
   margin-top: 1em;
   border-bottom: 1px solid var(--vp-c-divider);
@@ -36,14 +38,19 @@ function getDateTime(time: number) {
 
 .post-entry article {
   padding: 1.5em;
-  border-radius: 8px; /* 圆角 */
-  box-shadow: var(--vp-shadow-1); /* 阴影效果 */
-  transition: transform 0.2s ease, box-shadow 0.2s ease; /* 添加过渡效果 */
+  border-radius: 8px;
+  /* 圆角 */
+  box-shadow: var(--vp-shadow-1);
+  /* 阴影效果 */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  /* 添加过渡效果 */
 }
 
 .post-entry article:hover {
-  transform: translateY(-5px); /* 鼠标悬停时轻微上移 */
-  box-shadow: var(--vp-shadow-2); /* 鼠标悬停时增强阴影 */
+  transform: translateY(-5px);
+  /* 鼠标悬停时轻微上移 */
+  box-shadow: var(--vp-shadow-2);
+  /* 鼠标悬停时增强阴影 */
 }
 
 .post-entry time {
@@ -60,6 +67,7 @@ function getDateTime(time: number) {
 
 .post-entry a {
   text-decoration: none;
-  transition: color 0.2s ease; /* 添加颜色过渡 */
+  transition: color 0.2s ease;
+  /* 添加颜色过渡 */
 }
 </style>
