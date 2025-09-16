@@ -3,7 +3,7 @@
 import { data as posts } from "@docs/_data/posts.data";
 
 function getDateTime(time: number) {
-	return new Date(time).toISOString();
+  return new Date(time).toISOString();
 }
 </script>
 
@@ -18,8 +18,13 @@ function getDateTime(time: number) {
           <h2 class="title">
             {{ post.title }}
           </h2>
-          <div v-if="post.excerpt" v-html="post.excerpt"></div>
         </a>
+        <div v-if="post.excerpt" class="prose dark:prose-invert max-w-none text-gray-500 dark:text-gray-300"
+          v-html="post.excerpt">
+        </div>
+        <div class="text-base leading-6 font-medium">
+          <a class="link" aria-label="read more" :href="post.url">阅读详情 →</a>
+        </div>
       </article>
     </li>
   </ul>

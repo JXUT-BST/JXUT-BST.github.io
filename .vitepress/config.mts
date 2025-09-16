@@ -6,13 +6,13 @@ import {
 	GitChangelogMarkdownSection,
 } from "@nolebase/vitepress-plugin-git-changelog/vite";
 import { ThumbnailHashImages } from "@nolebase/vitepress-plugin-thumbnail-hash/vite";
+import tailwindcss from "@tailwindcss/vite";
 import type { UserConfig } from "vitepress";
 import { defineConfig } from "vitepress";
 import type VitePressI18nOptions from "vitepress-i18n";
 import { withI18n } from "vitepress-i18n";
 import { withSidebar } from "vitepress-sidebar";
 import socialIcons from "./theme/support/socialIcons";
-import tailwindcss from '@tailwindcss/vite'
 
 // https://vitepress-sidebar.cdget.com/zhHans/introduction
 const vitePressSidebarOptions = [
