@@ -6,6 +6,7 @@ import {
 	GitChangelogMarkdownSection,
 } from "@nolebase/vitepress-plugin-git-changelog/vite";
 import { ThumbnailHashImages } from "@nolebase/vitepress-plugin-thumbnail-hash/vite";
+import tailwindcss from "@tailwindcss/vite";
 import type { UserConfig } from "vitepress";
 import { defineConfig } from "vitepress";
 import type VitePressI18nOptions from "vitepress-i18n";
@@ -59,6 +60,8 @@ const vitePressConfig: UserConfig = {
 			},
 		},
 		plugins: [
+			// @ts-expect-error
+			tailwindcss(),
 			// FIXME VSCode报错异常，实际并不会影响运行，所以暂时使用 @ts-expect-error 强制忽视报错
 			// @ts-expect-error
 			GitChangelog({
