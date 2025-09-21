@@ -36,7 +36,7 @@ export default {
 				h(NolebaseEnhancedReadabilitiesScreenMenu),
 		});
 	},
-	enhanceApp({ app, router, siteData }) {
+	enhanceApp({ app }) {
 		// 注册全局组件
 		app.component("Footer", Footer);
 		app.component("HeroTextUnderline", Underline);

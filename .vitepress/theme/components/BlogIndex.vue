@@ -3,7 +3,7 @@
 import { data as posts } from "@docs/_data/posts.data";
 
 function getDateTime(time: number) {
-  return new Date(time).toISOString();
+	return new Date(time).toISOString();
 }
 </script>
 
