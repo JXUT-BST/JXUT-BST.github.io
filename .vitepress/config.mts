@@ -60,10 +60,8 @@ const vitePressConfig: UserConfig = {
 			},
 		},
 		plugins: [
-			// @ts-expect-error
 			tailwindcss(),
-			// FIXME VSCode报错异常，实际并不会影响运行，所以暂时使用 @ts-expect-error 强制忽视报错
-			// @ts-expect-error
+
 			GitChangelog({
 				repoURL: () => "https://github.com/JXUT-BST/JXUT-BST.github.io",
 				mapAuthors: [
@@ -83,9 +81,9 @@ const vitePressConfig: UserConfig = {
 					},
 				],
 			}),
-			// @ts-expect-error
+
 			GitChangelogMarkdownSection(),
-			// @ts-expect-error
+
 			ThumbnailHashImages(),
 		],
 		optimizeDeps: {
