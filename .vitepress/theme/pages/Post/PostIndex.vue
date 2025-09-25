@@ -19,10 +19,10 @@ function getDateTime(time: number) {
             {{ post.title }}
           </h2>
         </a>
-        <div v-if="post.excerpt" class="prose dark:prose-invert max-w-none text-gray-500 dark:text-gray-300"
+        <div v-if="post.excerpt"
           v-html="post.excerpt">
         </div>
-        <div class="text-base leading-6 font-medium">
+        <div>
           <a :href="post.url" aria-label="read more" class="link">阅读详情 →</a>
         </div>
       </article>

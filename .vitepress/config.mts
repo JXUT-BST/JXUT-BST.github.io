@@ -151,16 +151,16 @@ const vitePressConfig: UserConfig = {
 			{
 				text: "关于",
 				items: [
-					{ text: "工作室", link: "/content/about/about-bst" },
+					{ text: "工作室", link: "/about/about-bst" },
 					{ text: "团队成员", link: "/pages/team" },
-					{ text: "加入我们👋", link: "/content/about/join-us" },
+					{ text: "加入我们👋", link: "/about/join-us" },
 					{ text: "赞助信息", link: "/pages/sponsor" },
 				],
 			},
 			{
 				text: "相关链接",
 				items: [
-					{ text: "开发文档", link: "/content/api-docs/how-to-dev" },
+					{ text: "开发文档", link: "/api-docs/how-to-dev" },
 					{ text: "AI助手🤖", link: "/pages/ai" },
 					{
 						text: "知识库",
