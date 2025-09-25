@@ -1,15 +1,15 @@
 <!-- 实现方式参考Vite官网Blog页面 https://github.com/vitejs/vite/blob/main/docs/.vitepress/theme/components/BlogIndex.vue -->
-<script setup lang="ts">
-import { data as posts } from "@docs/_data/posts.data";
+<script lang="ts" setup>
+import { data as posts } from "@theme/data/posts.data";
 
 function getDateTime(time: number) {
-  return new Date(time).toISOString();
+	return new Date(time).toISOString();
 }
 </script>
 
 <template>
   <ul class="post-list">
-    <li class="post-entry" v-for="post of posts">
+    <li v-for="post of posts" class="post-entry">
       <article>
         <a :href="post.url">
           <time :datetime="getDateTime(post.date.time)">
@@ -19,11 +19,11 @@ function getDateTime(time: number) {
             {{ post.title }}
           </h2>
         </a>
-        <div v-if="post.excerpt" class="prose dark:prose-invert max-w-none text-gray-500 dark:text-gray-300"
+        <div v-if="post.excerpt"
           v-html="post.excerpt">
         </div>
-        <div class="text-base leading-6 font-medium">
-          <a class="link" aria-label="read more" :href="post.url">阅读详情 →</a>
+        <div>
+          <a :href="post.url" aria-label="read more" class="link">阅读详情 →</a>
         </div>
       </article>
     </li>

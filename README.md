@@ -3,7 +3,7 @@
 
 ## 开发&贡献指南
 
-请参阅 [开发文档](docs/content/api-docs/how-to-dev.md) 或者 [在线阅读](https://lansejishu.com/api-docs/how-to-dev)
+请参阅 [开发文档](docs/api-docs/how-to-dev.md) 或者 [在线阅读](https://lansejishu.com/api-docs/how-to-dev)
 
 ## 文件结构
 ```
