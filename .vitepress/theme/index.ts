@@ -2,7 +2,6 @@
 
 import type { Theme } from "vitepress";
 import DefaultTheme from "vitepress/theme";
-import { h } from "vue";
 import "./style/index.css";
 
 import { NolebaseGitChangelogPlugin } from "@nolebase/vitepress-plugin-git-changelog/client";
@@ -11,14 +10,9 @@ import "@nolebase/vitepress-plugin-git-changelog/client/style.css";
 import { NolebaseUnlazyImg } from "@nolebase/vitepress-plugin-thumbnail-hash/client";
 import "@nolebase/vitepress-plugin-thumbnail-hash/client/style.css";
 
-import {
-	NolebaseEnhancedReadabilitiesMenu,
-	NolebaseEnhancedReadabilitiesScreenMenu,
-} from "@nolebase/vitepress-plugin-enhanced-readabilities/client";
-import "@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css";
-
 import "@theojs/lumen/icon"; /* 图标 */
 import { Underline } from "@theojs/lumen";
+
 import { useData, useRoute } from "vitepress";
 import giscusTalk from "vitepress-plugin-comment-with-giscus";
 
@@ -26,16 +20,6 @@ import Footer from "./components/Footer.vue";
 
 export default {
 	extends: DefaultTheme,
-	Layout: () => {
-		return h(DefaultTheme.Layout, null, {
-			// https://vitepress.dev/guide/extending-default-theme#layout-slots
-			// 为较宽的屏幕的导航栏添加阅读增强菜单
-			"nav-bar-content-after": () => h(NolebaseEnhancedReadabilitiesMenu),
-			// 为较窄的屏幕（通常是小于 iPad Mini）添加阅读增强菜单
-			"nav-screen-content-after": () =>
-				h(NolebaseEnhancedReadabilitiesScreenMenu),
-		});
-	},
 	enhanceApp({ app }) {
 		// 注册全局组件
 		app.component("Footer", Footer);

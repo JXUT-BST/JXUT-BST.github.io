@@ -19,9 +19,9 @@ const vitePressSidebarOptions = [
 	/* Options... */
 	{
 		documentRootPath: "/docs",
-		scanStartPath: "content/api-docs",
-		basePath: "content/api-docs/",
-		resolvePath: "content/api-docs/",
+		scanStartPath: "api-docs",
+		basePath: "api-docs/",
+		resolvePath: "api-docs/",
 		collapsed: false,
 		capitalizeFirst: true,
 		useTitleFromFileHeading: true,
@@ -32,9 +32,9 @@ const vitePressSidebarOptions = [
 	{
 		debugPrint: true,
 		documentRootPath: "/docs",
-		scanStartPath: "content/about",
-		basePath: "/content/about/",
-		resolvePath: "/content/about/",
+		scanStartPath: "about",
+		basePath: "/about/",
+		resolvePath: "/about/",
 		collapsed: true,
 		collapseDepth: 3,
 		capitalizeFirst: true,

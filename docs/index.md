@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 了解更多
-      link: /content/about/about-bst
+      link: /about/about-bst
 
     - theme: alt
       text: 活动推文
@@ -20,7 +20,7 @@ hero:
 
     - theme: brand
       text: 加入我们👋
-      link: /content/about/join-us
+      link: /about/join-us
 
 features:
   - icon: 🛠️
@@ -42,6 +42,6 @@ features:
 ---
 <HeroTextUnderline />
 <!-- Note: 以下为引用 about-bst.md 的第3行内容，请确保内容正常否则将出现隐式错误 -->
-<!-- @include: ./content/about/about-bst.md{3,3} -->
+<!-- @include: ./about/about-bst.md{3,3} -->
 
 <Footer :icpRecordCode="'赣ICP备19006787号-2'" :copyright="`Copyright © 2017-${new Date().getFullYear()} JXUT BST`" />

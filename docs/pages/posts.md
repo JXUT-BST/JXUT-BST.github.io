@@ -5,9 +5,9 @@ outline: false
 ---
 
 <script setup>
-import BlogIndex from '@theme/components/BlogIndex.vue'
+import PostIndex from '@theme/pages/Post/PostIndex.vue'
 </script>
 
 # 活动推文
 
-<BlogIndex/>
+<PostIndex/>
