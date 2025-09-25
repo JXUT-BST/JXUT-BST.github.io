@@ -4,3 +4,7 @@
 @import "./hidden.css";
 @import "./custom-block.css";
 @import "tailwindcss";
+
+@source "../../theme";
+@source "../../../docs/**/*.md";
+/* VitePress中使用source确保扫描规则 https://github.com/tailwindlabs/tailwindcss/issues/16050*/
