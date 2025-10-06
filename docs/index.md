@@ -45,21 +45,3 @@ features:
 <!-- @include: ./about/about-bst.md{3,3} -->
 
 <Footer :icpRecordCode="'赣ICP备19006787号-2'" :copyright="`Copyright © 2017-${new Date().getFullYear()} JXUT BST`" />
-
-:::raw
-<div class="overflow-hidden">
-    <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div class="relative mx-auto max-w-4xl grid space-y-5 sm:space-y-10">
-            <!-- Title -->
-            <div class="text-center">
-                <p class="text-xs font-semibold text-gray-500 uppercase mb-3">
-                    Hello, Friend!
-                </p>
-                <h1 class="text-3xl text-gray-800 font-bold sm:text-5xl lg:text-6xl lg:leading-tight">
-                    Your are looking at <span class="text-blue-500">Tailwind Content</span>
-                </h1>
-            </div>
-        </div>
-    </div>
-</div>
-:::
