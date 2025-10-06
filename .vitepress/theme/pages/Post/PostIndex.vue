@@ -8,71 +8,46 @@ function getDateTime(time: number) {
 </script>
 
 <template>
-  <ul class="post-list">
-    <li v-for="post of posts" class="post-entry">
-      <article>
-        <a :href="post.url">
-          <time :datetime="getDateTime(post.date.time)">
-            {{ post.date.string }}
-          </time>
-          <h2 class="title">
-            {{ post.title }}
-          </h2>
-        </a>
-        <div v-if="post.excerpt"
-          v-html="post.excerpt">
-        </div>
-        <div>
-          <a :href="post.url" aria-label="read more" class="link">阅读详情 →</a>
-        </div>
-      </article>
-    </li>
-  </ul>
+  <section>
+    <div class="container px-6 py-10 mx-auto">
+      <div class="text-center">
+        <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">活动推文</h1>
+        <p class="max-w-lg mx-auto mt-4 text-gray-500 dark:text-gray-400 text-lg">
+          记录蓝色技术工作室的重要时刻、技术分享与活动动态
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 md:mt-16">
+        <article v-for="post of posts" :key="post.url"
+          class="bg-white dark:bg-gray-900 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+
+          <div class="p-6">
+            <h2 class="text-xl font-semibold text-gray-800 dark:text-white mb-3">
+              {{ post.title }}
+            </h2>
+
+            <hr class="w-16 my-4 border-blue-500">
+
+            <p v-if="post.excerpt" v-html="post.excerpt"
+              class="text-gray-600 dark:text-gray-300 text-sm mb-4 line-clamp-3">
+            </p>
+
+            <div class="flex items-center justify-between mt-6">
+              <time :datetime="getDateTime(post.date.time)" class="text-sm text-gray-500 dark:text-gray-400">
+                {{ post.date.string }}
+              </time>
+
+              <a :href="post.url"
+                class="inline-flex items-center text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 text-sm font-medium">
+                阅读详情
+                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
 </template>
-
-<style scoped>
-.post-list {
-  list-style-type: none;
-  padding: 0;
-}
-
-.post-entry {
-  margin-top: 1em;
-  border-bottom: 1px solid var(--vp-c-divider);
-}
-
-.post-entry article {
-  padding: 1.5em;
-  border-radius: 8px;
-  /* 圆角 */
-  box-shadow: var(--vp-shadow-1);
-  /* 阴影效果 */
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  /* 添加过渡效果 */
-}
-
-.post-entry article:hover {
-  transform: translateY(-5px);
-  /* 鼠标悬停时轻微上移 */
-  box-shadow: var(--vp-shadow-2);
-  /* 鼠标悬停时增强阴影 */
-}
-
-.post-entry time {
-  font-size: 14px;
-  color: var(--vp-c-text-1);
-}
-
-.title {
-  border: none;
-  margin-top: 0;
-  padding-top: 0;
-  font-size: 22px;
-}
-
-.post-entry a {
-  text-decoration: none;
-  transition: color 0.2s ease;
-  /* 添加颜色过渡 */
-}
-</style>

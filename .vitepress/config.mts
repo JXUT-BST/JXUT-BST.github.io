@@ -1,12 +1,5 @@
-import { resolve } from "node:path";
 import { BiDirectionalLinks } from "@nolebase/markdown-it-bi-directional-links";
 import { UnlazyImages } from "@nolebase/markdown-it-unlazy-img";
-import {
-	GitChangelog,
-	GitChangelogMarkdownSection,
-} from "@nolebase/vitepress-plugin-git-changelog/vite";
-import { ThumbnailHashImages } from "@nolebase/vitepress-plugin-thumbnail-hash/vite";
-import tailwindcss from "@tailwindcss/vite";
 import type { UserConfig } from "vitepress";
 import { defineConfig } from "vitepress";
 import type VitePressI18nOptions from "vitepress-i18n";
@@ -52,54 +45,9 @@ const vitePressI18nConfig: VitePressI18nOptions = {
 };
 
 const vitePressConfig: UserConfig = {
-	srcDir: "./docs",
+	srcDir: "docs",
 	vite: {
-		resolve: {
-			alias: {
-				"@docs": resolve(__dirname, "../docs"),
-			},
-		},
-		plugins: [
-			tailwindcss(),
-
-			GitChangelog({
-				repoURL: () => "https://github.com/JXUT-BST/JXUT-BST.github.io",
-				mapAuthors: [
-					{
-						name: "JXUT-BST",
-						username: "JXUT-BST",
-						mapByNameAliases: ["JXUT-BST", "JXUT BST", "蓝色技术工作室"],
-					},
-					{
-						name: "Alaye-Dong",
-						username: "Alaye-Dong",
-					},
-					{
-						name: "Rain-m1st",
-						username: "Rain-m1st",
-						mapByNameAliases: ["Averyjhy"],
-					},
-				],
-			}),
-
-			GitChangelogMarkdownSection(),
-
-			ThumbnailHashImages(),
-		],
-		optimizeDeps: {
-			exclude: [
-				"@nolebase/vitepress-plugin-enhanced-readabilities/client",
-				"vitepress",
-				"@nolebase-ui",
-			],
-		},
-		ssr: {
-			noExternal: [
-				// 如果还有别的依赖需要添加的话，并排填写和配置到这里即可
-				"@nolebase/vitepress-plugin-enhanced-readabilities",
-				"@nolebase-ui",
-			],
-		},
+		configFile: "vite.config.ts",
 	},
 	vue: {
 		template: {

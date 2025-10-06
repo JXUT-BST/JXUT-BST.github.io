@@ -93,16 +93,6 @@ pnpm install
 pnpm run docs:dev
 ```
 
-### 编码规范
-
-- 代码风格
-- 命名规范
-
-### 版本控制
-
-- Git 基础操作
-- 分支管理
-
 ### 调试与测试
 
 在开发过程中，还可以通过以下命令来构建和预览项目，进行调试和测试：
@@ -127,6 +117,75 @@ pnpm run docs:test
 
 > [!TIP] 提示
 > 命令的具体含义和配置可以查看 `package.json`
+
+## 文档规范
+
+- 命名规则：文档文件名均为英文小写，单词之间用连字符 `-` 连接，如 `hello-jxut-wiki`。
+- 文件结构：文档文件存放在 `docs` 的子目录下，每个子目录都应具有根文档 `index.md` ，根文档的 `title` 属性将为该目录提供对应中文目录名。
+- 标题：文档都应具有且只有一个一级标题，使用 `#` 标记，并在 frontmatter 使用 `title` 属性指定中文标题。
+
+## 注意
+
+### TailWind CSS
+
+> [vitepress-tailwind](https://github.com/dealenx/vitepress-tailwind/blob/main/README.md)
+
+> [issues](https://github.com/vuejs/vitepress/issues/4904)
+
+在 MD 文件中使用 TailWind CSS ，需要使用 `:::raw` 包裹起来，如：
+```markdown
+:::raw
+<div class="bg-blue-500 text-white p-4 rounded-lg">
+  This is a block styled with Tailwind CSS
+</div>
+:::
+```
+```markdown
+<script setup>
+import Sigma from './.vitepress/theme/components/Sigma.vue'
+</script>
+
+:::raw
+<Sigma />
+:::
+```
+- 使用 `:::raw` 正确渲染：
+
+:::raw
+<div class="overflow-hidden">
+    <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <div class="relative mx-auto max-w-4xl grid space-y-5 sm:space-y-10">
+            <!-- Title -->
+            <div class="text-center">
+                <p class="text-xs font-semibold text-gray-500 uppercase mb-3">
+                    Hello, Friend!
+                </p>
+                <h1 class="text-3xl text-gray-800 font-bold sm:text-5xl lg:text-6xl lg:leading-tight">
+                    Your are looking at <span class="text-blue-500">Tailwind Content</span>
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>
+:::
+
+- 不使用 `:::raw` ，可能会有样式受到 Vitepess 基础样式的影响:
+
+<div class="overflow-hidden">
+    <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <div class="relative mx-auto max-w-4xl grid space-y-5 sm:space-y-10">
+            <!-- Title -->
+            <div class="text-center">
+                <p class="text-xs font-semibold text-gray-500 uppercase mb-3">
+                    Hello, Friend!
+                </p>
+                <h1 class="text-3xl text-gray-800 font-bold sm:text-5xl lg:text-6xl lg:leading-tight">
+                    Your are looking at <span class="text-blue-500">Tailwind Content</span>
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>
 
 ## 部署与维护
 
@@ -159,18 +218,4 @@ pnpm run docs:test
 - [VitePress 快速上手中文教程](https://vitepress.yiov.top/)
 - [Nólëbase 集成多元化的文档工程工具合集](https://nolebase-integrations.ayaka.io/pages/zh-CN/)
 
-## 贡献指南
-
-### 贡献者协议
-
-### 贡献流程
-
-### 问题反馈
-
 有任何问题及反馈，请移步 [issues](https://github.com/JXUT-BST/JXUT-BST.github.io/issues)。
-
-## 附录
-
-### 常见问题解答
-
-### 术语表
