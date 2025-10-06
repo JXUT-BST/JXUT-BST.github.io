@@ -27,9 +27,6 @@ importers:
       '@nolebase/markdown-it-unlazy-img':
         specifier: ^2.18.2
         version: 2.18.2(@types/node@24.7.0)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(markdown-it@14.1.0)(yaml@2.8.1)
-      '@nolebase/vitepress-plugin-enhanced-readabilities':
-        specifier: ^2.18.2
-        version: 2.18.2(vitepress@2.0.0-alpha.12(@types/node@24.7.0)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(typescript@5.9.3)(yaml@2.8.1))(vue@3.5.22(typescript@5.9.3))
       '@nolebase/vitepress-plugin-git-changelog':
         specifier: ^2.18.2
         version: 2.18.2(vitepress@2.0.0-alpha.12(@types/node@24.7.0)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(typescript@5.9.3)(yaml@2.8.1))(vue@3.5.22(typescript@5.9.3))
@@ -314,12 +311,6 @@ packages:
     peerDependencies:
       vue: '>=3.2.0'
 
-  '@iconify-json/carbon@1.2.13':
-    resolution: {integrity: sha512-vXrFFKkfYaZSwf4WfnRQJQMnpEzxlPlupwZZlS1WvOAuNnWahsUudHycaMpoBzDqBfniH4KQ2b5qnw0VMKoJug==}
-
-  '@iconify-json/icon-park-outline@1.2.4':
-    resolution: {integrity: sha512-NyZxXe2gD2TbTOyoRRMdtEJhr6i2KQCdDlYYoOn5oZLndQjwpIhw79hzeFhXvP38/o40D3gQ+l+IaSJgbB+0TQ==}
-
   '@iconify-json/octicon@1.2.14':
     resolution: {integrity: sha512-EVP0wcWrJW8L9jLm5JxUiNWAhjm+WeEVxR1/do9ChCx7QRBbNTdaV5u5d9l8H+u3liTgcIijPU8wpc9N7TQG1w==}
 
@@ -391,11 +382,6 @@ packages:
     peerDependencies:
       vitepress: ^1.5.0 || ^2.0.0-alpha.1
       vue: '>= 3.5.18'
-
-  '@nolebase/vitepress-plugin-enhanced-readabilities@2.18.2':
-    resolution: {integrity: sha512-fDhdZBSJL2qs/1xac0PtJfU5UI7b36ffVPYgzM8Ig2NjqMJ7cBvrTTPGq03lUeMjK7GD7fItAKudaP+ZrtMg8w==}
-    peerDependencies:
-      vitepress: ^1.5.0 || ^2.0.0-alpha.1
 
   '@nolebase/vitepress-plugin-git-changelog@2.18.2':
     resolution: {integrity: sha512-TT1nxP+iS+5K8OLtkEr1EZ4bhCa4iqggly0JTD7TsO01hcwzMovr0lRaxPTo/4i/0bwMiPcaKxpKJ2zJIiu4Kw==}
@@ -1930,14 +1916,6 @@ snapshots:
       giscus: 1.6.0
       vue: 3.5.22(typescript@5.9.3)
 
-  '@iconify-json/carbon@1.2.13':
-    dependencies:
-      '@iconify/types': 2.0.0
-
-  '@iconify-json/icon-park-outline@1.2.4':
-    dependencies:
-      '@iconify/types': 2.0.0
-
   '@iconify-json/octicon@1.2.14':
     dependencies:
       '@iconify/types': 2.0.0
@@ -2037,16 +2015,6 @@ snapshots:
       less: 4.4.1
       vitepress: 2.0.0-alpha.12(@types/node@24.7.0)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(typescript@5.9.3)(yaml@2.8.1)
       vue: 3.5.22(typescript@5.9.3)
-
-  '@nolebase/vitepress-plugin-enhanced-readabilities@2.18.2(vitepress@2.0.0-alpha.12(@types/node@24.7.0)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(typescript@5.9.3)(yaml@2.8.1))(vue@3.5.22(typescript@5.9.3))':
-    dependencies:
-      '@iconify-json/carbon': 1.2.13
-      '@iconify-json/icon-park-outline': 1.2.4
-      '@nolebase/ui': 2.18.2(vitepress@2.0.0-alpha.12(@types/node@24.7.0)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(typescript@5.9.3)(yaml@2.8.1))(vue@3.5.22(typescript@5.9.3))
-      less: 4.4.1
-      vitepress: 2.0.0-alpha.12(@types/node@24.7.0)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(typescript@5.9.3)(yaml@2.8.1)
-    transitivePeerDependencies:
-      - vue
 
   '@nolebase/vitepress-plugin-git-changelog@2.18.2(vitepress@2.0.0-alpha.12(@types/node@24.7.0)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(typescript@5.9.3)(yaml@2.8.1))(vue@3.5.22(typescript@5.9.3))':
     dependencies:
