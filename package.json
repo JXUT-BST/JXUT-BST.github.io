@@ -7,6 +7,7 @@
     "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.18.2",
     "@nolebase/vitepress-plugin-git-changelog": "^2.18.2",
     "@nolebase/vitepress-plugin-thumbnail-hash": "^2.18.2",
+    "@tailwindcss/postcss": "^4.1.14",
     "@tailwindcss/typography": "^0.5.19",
     "@types/node": "^24.5.2",
     "oxlint": "^1.18.0",
