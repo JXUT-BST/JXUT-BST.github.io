@@ -17,9 +17,11 @@ import { useData, useRoute } from "vitepress";
 import giscusTalk from "vitepress-plugin-comment-with-giscus";
 
 import Footer from "./components/Footer.vue";
+import Layout from "./Layout.vue";
 
 export default {
 	extends: DefaultTheme,
+	Layout: Layout,
 	enhanceApp({ app }) {
 		// 注册全局组件
 		app.component("Footer", Footer);
