@@ -1,6 +1,7 @@
 {
   "type": "module",
   "devDependencies": {
+    "@antfu/eslint-config": "^6.0.0",
     "@biomejs/biome": "2.2.2",
     "@nolebase/markdown-it-bi-directional-links": "^2.18.2",
     "@nolebase/markdown-it-unlazy-img": "^2.18.2",
@@ -9,6 +10,7 @@
     "@tailwindcss/postcss": "^4.1.14",
     "@tailwindcss/typography": "^0.5.19",
     "@types/node": "^24.7.0",
+    "eslint": "^9.37.0",
     "oxlint": "^1.19.0",
     "vite": "^7.1.9",
     "vitepress": "2.0.0-alpha.12",
@@ -23,8 +25,10 @@
     "preview": "vitepress preview",
     "test": "vitepress build && vitepress preview",
     "oxlint": "oxlint . --fix",
-    "format": "biome format --write ./docs ./.vitepress",
-    "lint": "biome check --write ./docs ./.vitepress"
+    "biome:format": "biome format --write ./docs ./.vitepress",
+    "biome:lint": "biome check --write ./docs ./.vitepress",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.14",
