@@ -58,13 +58,13 @@ Enhanced Theme
         },
         {
           name: 'intel-i5-13400',
-          username: 'damokeris', 
+          username: 'damokeris',
           mapByEmailAliases: 'xxxxx@qq.com'
         },
         {
           name: 'ThinkPad T14',
-          username: 'damokeris', 
-          mapByEmailAliases: ['xxxxx@qq.com'] 
+          username: 'damokeris',
+          mapByEmailAliases: ['xxxxx@qq.com']
         },
 ],
 ```

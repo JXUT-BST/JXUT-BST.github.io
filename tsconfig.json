@@ -1,26 +1,26 @@
 {
-    "compilerOptions": {
-        "module": "ESNext",
-        "moduleResolution": "Bundler",
-        "baseUrl": ".",
-        "paths": {
-            "@theme/*": [
-                ".vitepress/theme/*"
-            ],
-            "@docs/*":[
-                "docs/*"
-            ]
-        }
-    },
-    "include": [
-        "**/.vitepress/**/*.ts",
-        "**/.vitepress/**/*.mts",
-        "**/.vitepress/**/*.vue",
-        "**/docs/**/*.ts",
-        "**/docs/**/*.mts",
-        "**/docs/**/*.vue"
-    ],
-    "exclude": [
-        "node_modules"
-    ]
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "paths": {
+      "@theme/*": [
+        ".vitepress/theme/*"
+      ],
+      "@docs/*": [
+        "docs/*"
+      ]
+    }
+  },
+  "include": [
+    "**/.vitepress/**/*.ts",
+    "**/.vitepress/**/*.mts",
+    "**/.vitepress/**/*.vue",
+    "**/docs/**/*.ts",
+    "**/docs/**/*.mts",
+    "**/docs/**/*.vue"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
