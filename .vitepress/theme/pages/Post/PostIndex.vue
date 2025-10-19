@@ -25,7 +25,7 @@ function getDateTime(time: number) {
           class="bg-white dark:bg-gray-900 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
         >
           <div class="p-6">
-            <h2 class="text-xl font-semibold text-gray-800 dark:text-white mb-3">
+            <h2 class="text-xl font-semibold text-gray-800 dark:text-white mb-3 line-clamp-1">
               {{ post.title }}
             </h2>
 
