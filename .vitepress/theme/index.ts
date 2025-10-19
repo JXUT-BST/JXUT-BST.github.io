@@ -13,7 +13,7 @@ import DefaultTheme from 'vitepress/theme'
 import Footer from './components/Footer.vue'
 import Layout from './Layout.vue'
 
-import './style/index.css'
+import './styles/index.css'
 import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
 
 import '@nolebase/vitepress-plugin-thumbnail-hash/client/style.css'
