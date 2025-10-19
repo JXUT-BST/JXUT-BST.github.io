@@ -18,7 +18,6 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^6.0.0",
-    "@biomejs/biome": "2.2.2",
     "@nolebase/markdown-it-bi-directional-links": "^2.18.2",
     "@nolebase/markdown-it-unlazy-img": "^2.18.2",
     "@nolebase/vitepress-plugin-git-changelog": "^2.18.2",
