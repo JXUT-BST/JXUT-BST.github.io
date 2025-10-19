@@ -5,7 +5,7 @@ interface Props {
   href?: string
 }
 
-const props = withDefaults(defineProps<Props>(), {
+const { href } = withDefaults(defineProps<Props>(), {
   href: '#',
 })
 </script>
