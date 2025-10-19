@@ -72,8 +72,8 @@ order: 1
 git clone https://github.com/JXUT-BST/JXUT-BST.github.io.git
 ```
 
-> [!WARNING] 建议 
-为了更好地进行开发和贡献，建议先在 GitHub 上 🔱 [Fork](https://github.com/JXUT-BST/JXUT-BST.github.io/fork) 该项目到个人账户。可以在自己的仓库中完成开发和验证后，再向源仓库提交 Pull Request>>（[PR](https://github.com/JXUT-BST/JXUT-BST.github.io/pulls)）进行贡献。 
+> [!WARNING] 建议
+为了更好地进行开发和贡献，建议先在 GitHub 上 🔱 [Fork](https://github.com/JXUT-BST/JXUT-BST.github.io/fork) 该项目到个人账户。可以在自己的仓库中完成开发和验证后，再向源仓库提交 Pull Request>>（[PR](https://github.com/JXUT-BST/JXUT-BST.github.io/pulls)）进行贡献。
 
 #### 安装项目依赖包
 
