@@ -9,6 +9,6 @@ import DifyEmbedding from '@theme/components/DifyEmbedding.vue'
 </script>
 
 > [!WARNING] 注意
-> 🚧正在建设中~ 服务可能不可用
+> 🚧 正在建设中~ 服务可能不可用
 
 <DifyEmbedding/>

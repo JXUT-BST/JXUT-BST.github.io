@@ -12,7 +12,7 @@ import { bst } from '../_data/team.js'
 
 ## 联系方式
 
-- QQ群
+- QQ 群
     [点击加入](https://qm.qq.com/q/YDvNeYEt0c)
 
 - 微信公众号
@@ -21,6 +21,6 @@ import { bst } from '../_data/team.js'
 ## 办公地址
 
 - 江西科技学院红绿蓝众创空间-201
-- 江西科技学院S5-301
+- 江西科技学院 S5-301
 
 <VPTeamMembers :members="bst" />
