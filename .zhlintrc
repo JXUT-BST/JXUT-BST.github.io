@@ -1,0 +1,23 @@
+{
+  "preset": "default",
+  "rules": {
+    "adjustedFullWidthPunctuation": "",
+    "unifiedPunctuation": "traditional",
+    "spaceAroundAlphabet": true,
+    "spaceAroundNumber": true,
+    "spaceBetweenMixed": true,
+    "spaceOutsideCode": true,
+    "noSpaceInsideMark": true,
+    "noSpaceInsideBracket": true,
+    "spaceInsideBracket": false,
+    "noSpaceInsideQuote": true,
+    "spaceInsideQuote": false
+  },
+  "caseIgnores": [
+    "[!NOTE]",
+    "[!TIP]",
+    "[!IMPORTANT]",
+    "[!WARNING]",
+    "[!CAUTION]"
+  ]
+}

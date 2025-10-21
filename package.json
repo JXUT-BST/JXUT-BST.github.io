@@ -8,7 +8,8 @@
     "oxlint": "oxlint . --fix",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
-    "zhlint": "zhlint --fix docs/**/*.md"
+    "zhlint:fix": "zhlint --fix docs/**/*.md",
+    "zhlint:test": "zhlint docs/about/about-bst.md"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.14",
