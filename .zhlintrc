@@ -2,7 +2,7 @@
   "preset": "default",
   "rules": {
     "adjustedFullWidthPunctuation": "",
-    "unifiedPunctuation": "traditional",
+    "unifiedPunctuation": "simplified",
     "spaceAroundAlphabet": true,
     "spaceAroundNumber": true,
     "spaceBetweenMixed": true,
