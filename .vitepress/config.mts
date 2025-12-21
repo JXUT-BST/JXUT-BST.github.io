@@ -132,7 +132,7 @@ const vitePressConfig: UserConfig = {
 
     editLink: {
       pattern:
-				'https://github.com/JXUT-BST/JXUT-BST.github.io/edit/main/docs/:path',
+        'https://github.com/JXUT-BST/JXUT-BST.github.io/edit/main/docs/:path',
     },
 
     ignoreDeadLinks: `localhostLinks`,
