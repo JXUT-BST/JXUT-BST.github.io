@@ -16,14 +16,3 @@
 
 > [!TIP] 提示
 >没有找到奖项？可能缺失未被收集，欢迎补全，你可以提交 [issues](https://github.com/JXUT-BST/JXUT-BST.github.io/issues)。
-
-## 试试我们的 AI 助手 🤖
-
-<script setup>
-import DifyEmbedding from '@theme/components/DifyEmbedding.vue'
-</script>
-
-> [!WARNING] 注意
-> 🚧 正在建设中~ 服务可能不可用
-
-<DifyEmbedding/>
