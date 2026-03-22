@@ -24,10 +24,27 @@ export const bst = [
 
 export const core = [
   {
+    avatar: 'https://github.com/Ryker-Zhong.png',
+    name: 'Ryker Zhong',
+    title: '25会长',
+    desc: 'ROS机器人、单片机开发',
+    links: [{ icon: 'github', link: 'https://github.com/Ryker-Zhong' }],
+  },
+  {
+    avatar: 'https://github.com/Rain-m1st.png',
+    name: 'Rain-m1st',
+    title: '24会长、24软件队长',
+    desc: 'C/C++算法、前端开发',
+    links: [{ icon: 'github', link: 'https://github.com/Rain-m1st' }],
+  },
+]
+
+export const emeriti = [
+  {
     avatar: 'https://www.github.com/Alaye-Dong.png',
     name: 'Alaye Dong',
     title: '23团支书、24理事会干事',
-    desc: '嵌入式软件、前端开发',
+    desc: '嵌入式软件、全栈开发',
     links: [
       { icon: 'github', link: 'https://github.com/Alaye-Dong' },
       {
@@ -40,20 +57,6 @@ export const core = [
       },
     ],
     sponsor: 'https://afdian.com/a/alayedong',
-  },
-  {
-    avatar: 'https://www.github.com/huangjiawen123.png',
-    name: 'huangjiawen123',
-    title: '23智能车队长、24理事会干事',
-    desc: '嵌入式软件、前端开发',
-    links: [{ icon: 'github', link: 'https://github.com/huangjiawen123' }],
-  },
-  {
-    avatar: 'https://github.com/Rain-m1st.png',
-    name: 'Rain-m1st',
-    title: '24会长、24软件队长',
-    desc: 'C/C++算法、前端开发',
-    links: [{ icon: 'github', link: 'https://github.com/Rain-m1st' }],
   },
   {
     // FIXME 本地图片不适合使用代码仓库存储，待更好的方法
@@ -70,6 +73,13 @@ export const core = [
     title: '24运营财务',
   },
   {
+    avatar: 'https://www.github.com/huangjiawen123.png',
+    name: 'huangjiawen123',
+    title: '23智能车队长、24理事会干事',
+    desc: '嵌入式软件、前端开发',
+    links: [{ icon: 'github', link: 'https://github.com/huangjiawen123' }],
+  },
+  {
     name: 'Xiao Shuiqing',
     title: '核心成员',
     desc: '三维建模设计、修图剪辑',
@@ -81,16 +91,6 @@ export const core = [
     desc: '后端开发',
     links: [{ icon: 'github', link: 'https://github.com/Serendipityxk' }],
   },
-  {
-    avatar: 'https://github.com/Ryker-Zhong.png',
-    name: 'Ryker Zhong',
-    title: '核心成员',
-    desc: '单片机开发',
-    links: [{ icon: 'github', link: 'https://github.com/Ryker-Zhong' }],
-  },
-]
-
-export const emeriti = [
   {
     avatar: 'https://github.com/FutureWL.png',
     name: 'FutureWL',

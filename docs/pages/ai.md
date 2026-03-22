@@ -5,7 +5,6 @@ gitChangelog: false
 ---
 
 <script setup>
-import DifyEmbedding from '@theme/components/DifyEmbedding.vue'
 </script>
 
 > [!WARNING] 注意
