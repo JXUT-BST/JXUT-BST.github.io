@@ -1,7 +1,7 @@
 ---
 title: 喜报！蓝色技术工作室荣获 "优秀社团"
 authors: ['朱文月','刘美含']
-date: 2025-03-29
+date: 2026-04-20
 sidebar: false
 head:
   - - meta
@@ -13,7 +13,7 @@ head:
 ---
 
 
-![](assets/2026-04-20-Good-news!-Blue-Tech-Studio-has-been-awarded-Outstanding-Club-picture/image-1.webp)
+![](assets/2026-04-20-Good-news-Blue-Tech-Studio-has-been-awarded-Outstanding-Club-picture/image-1.webp)
 
 # 喜报！蓝色技术工作室荣获 “优秀社团”
 
