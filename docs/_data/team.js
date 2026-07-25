@@ -37,6 +37,25 @@ export const core = [
     desc: 'C/C++算法、前端开发',
     links: [{ icon: 'github', link: 'https://github.com/Rain-m1st' }],
   },
+  {
+    avatar: 'https://github.com/Joyce-111.png',
+    name: 'Joyce-111',
+    title: '25成员',
+    desc: 'Java、前端开发',
+    links: [{ icon: 'github', link: 'https://github.com/Joyce-111' }],
+  },
+  {
+    avatar: 'https://github.com/winkha-ha.png',
+    name: 'winkha-ha',
+    title: '25成员',
+    desc: 'Java、Python',
+    links: [{ icon: 'github', link: 'https://github.com/winkha-ha' }],
+  },
+  {
+    name: 'Ping jinxiang',
+    title: '25成员',
+    desc: '机械设计、机械仿真',
+  },
 ]
 
 export const emeriti = [
