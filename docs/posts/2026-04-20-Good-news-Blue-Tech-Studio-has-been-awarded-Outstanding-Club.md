@@ -1,7 +1,7 @@
 ---
 title: 喜报！蓝色技术工作室荣获 "优秀社团"
-authors: ['朱文月','刘美含']
-date: 2025-03-29
+authors: ['刘美含']
+date: 2026-04-20
 sidebar: false
 head:
   - - meta
@@ -11,9 +11,7 @@ head:
     - property: og:title
       content: 喜报！蓝色技术工作室荣获 "优秀社团"
 ---
-
-
-![](assets/2026-04-20-Good-news!-Blue-Tech-Studio-has-been-awarded-Outstanding-Club-picture/image-1.webp)
+![](assets/2026-04-20-Good-news-Blue-Tech-Studio-has-been-awarded-Outstanding-Club-picture/image-1.webp)
 
 # 喜报！蓝色技术工作室荣获 “优秀社团”
 
@@ -64,17 +62,3 @@ head:
 祝贺所有获奖的同学，也致敬每一位在实验室里默默坚守的蓝色人。未来，蓝色技术工作室将继续以技术为帆，以理想为桨，驶向更加广阔的星辰大海！
 
 > 蓝色技术工作室，因你而燃，因梦而行！
-
-文字 | 刘美含
-
-排版 | 刘美含
-
-审校 | 钟军
-
----
-
-### —— 内容推荐 ——
-
-- 🔗 [圆满收官！新生课程培训周，满载知识与星光](#)
-
-### —— 特别鸣谢 ——
