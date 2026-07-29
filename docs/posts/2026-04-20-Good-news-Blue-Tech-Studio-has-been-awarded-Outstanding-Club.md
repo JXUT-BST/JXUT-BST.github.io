@@ -11,11 +11,12 @@ head:
     - property: og:title
       content: 喜报！蓝色技术工作室荣获 "优秀社团"
 ---
-![](assets/2026-04-20-Good-news-Blue-Tech-Studio-has-been-awarded-Outstanding-Club-picture/image-1.webp)
-
 # 喜报！蓝色技术工作室荣获 “优秀社团”
 
 近日，江西科技学院蓝色技术工作室再传捷报：社团凭借扎实的技术实力、突出的竞赛成绩和积极向上的团队文化，成功获评校级 “优秀社团”。与此同时，社团骨干钟军、申昕卓荣获 “优秀社团干部” 称号，平金祥、邱帆、刘美含、阳芷琳、晏芝玲五位同学被评为 “优秀社团成员”，充分展现了蓝色技术工作室在科技创新与实践育人方面的丰硕成果。
+
+![](assets/2026-04-20-Good-news-Blue-Tech-Studio-has-been-awarded-Outstanding-Club-picture/image-1.webp)
+
 
 ## 01 🚀 蓝色技术工作室：以技术为笔，书写青春答卷
 
