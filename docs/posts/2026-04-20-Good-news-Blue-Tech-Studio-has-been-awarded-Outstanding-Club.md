@@ -14,7 +14,7 @@ head:
 
 近日，蓝色技术工作室获评校级 “优秀社团”，钟军、申昕卓荣获 “优秀社团干部”，平金祥、邱帆、刘美含、阳芷琳、晏芝玲五位同学获评 “优秀社团成员”。祝贺所有获奖同学，也致敬每一位默默付出的蓝色人！
 
-![](assets/2026-04-20-Good-news!-Blue-Tech-Studio-has-been-awarded-Outstanding-Club-picture/image-1.webp)
+![](assets/2026-04-20-Good-news-Blue-Tech-Studio-has-been-awarded-Outstanding-Club-picture/image-1.webp)
 
 # 喜报！蓝色技术工作室荣获 “优秀社团”
 
