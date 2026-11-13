@@ -1,17 +1,27 @@
-
 ---
+title: 蓝色技术工作室招新啦！——邀新生共赴科创之旅
+authors: ['阳芷琳', '李依璐']
+date: 2026-9-11
+sidebar: false
+head:
+  - - meta
+    - property: og:type
+      content: website
+  - - meta
+    - property: og:title
+      content: 蓝色技术工作室招新啦！——邀新生共赴科创之旅
+---
+
+如果你心怀科创梦想，渴望提升实践能力，蓝色技术工作室向全体新生发出诚挚邀约！**无论有无基础，只要热爱科技、愿意学习**，就来和我们参与项目、征战竞赛。
 
 # **蓝色技术工作室 招新啦！**
 
 **——邀新生共赴科创之旅**
 
-> 如果你心怀科创梦想，渴望提升实践能力，蓝色技术工作室向全体新生发出诚挚邀约！**无论有无基础，只要热爱科技、愿意学习**，就来和我们参与项目、征战竞赛。
-
-
-
 ---
 
 ## PART 1 工作室介绍
+![](assets/2026-9-11-Invite-freshmen-to-the-innovation-journey/image-1.webp)
 
 蓝色技术工作室（Blue Studio of Technology）成立于 **2011 年 10 月**，是江西科技学院学术科技类学生团队，由信息工程学院指导。工作室在吴立胜老师带领下，以 **"竞赛驱动 + 产教融合"** 模式，打造全周期科创闭环生态。
 
@@ -24,9 +34,7 @@
 ---
 
 ## PART 2 组织模式
-
-![](assets/2026-9-11-Invite-freshmen-to-the-innovation-journey/image-1.webp)
-
+![](assets/2026-9-11-Invite-freshmen-to-the-innovation-journey/image-2.webp)
 ### 01 软件组
 
 主攻软件开发、嵌入式与算法处理，学习 C/C++、Python、Java 等语言，负责智能设备程序编写、功能调试，对接软件类竞赛，参与项目完整开发流程，锻炼代码设计与问题调试能力。
@@ -46,17 +54,14 @@
 ---
 
 ## PART 3 特色实践活动
-
-![](assets/2026-9-11-Invite-freshmen-to-the-innovation-journey/image-2.webp)
-
+![](assets/2026-9-11-Invite-freshmen-to-the-innovation-journey/image-3.webp)
 ### 新生课程培训周
-
+![](assets/2026-9-11-Invite-freshmen-to-the-innovation-journey/image-4.webp)
+![](assets/2026-9-11-Invite-freshmen-to-the-innovation-journey/image-5.webp)
 工作室开展为期一周的新生课程培训，设置电脑基础竞赛、单片机等四大前沿领域课程。由学长学姐开展授课，夯实成员编程基础，构建计算思维，结合实战赛题积累竞赛经验，帮助新生快速入门科创。
 
-![](assets/2026-9-11-Invite-freshmen-to-the-innovation-journey/image-3.webp)
-
 ### 锡焊实践课
-
+![](assets/2026-9-11-Invite-freshmen-to-the-innovation-journey/image-6.webp)
 在锡焊实践活动中，同学们化身技术实践者，亲手制作 **"梵高星空灯"**。大家学习锡焊操作技术，在动手焊接的过程感受科技与艺术碰撞，把理论知识落地为实体作品，体验硬件制作的乐趣。
 
 ### 循迹小车设计与实践
@@ -66,9 +71,7 @@
 ---
 
 ## PART 4 实力风采
-
-![](assets/2026-9-11-Invite-freshmen-to-the-innovation-journey/image-4.webp)
-
+![](assets/2026-9-11-Invite-freshmen-to-the-innovation-journey/image-7.webp)
 团队累计斩获 **80 余项国家级、400 余项省级奖项**，获评：
 
 - 全国高校"活力社团" TOP100
@@ -96,10 +99,8 @@ A：所有活动、实践都安排在课余时间，不会和课堂教学冲突�
 ---
 
 ## 招新咨询
-
+![](assets/2026-9-11-Invite-freshmen-to-the-innovation-journey/image-8.webp)
 想要了解更多工作室招新细则、报名方式，或是还有其他疑问的同学，可以扫描下方 QQ 群二维码进群。群内会有学长学姐在线答疑，同步招新时间、报名流程等重要通知，欢迎感兴趣的新生扫码入群！
-
-![](assets/2026-9-11-Invite-freshmen-to-the-innovation-journey/image-5.webp)
 
 ---
 
